@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Language: hu\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Controls"
+msgstr "Vezérlés"
+
+msgid "Device"
+msgstr "Eszköz"
+
+msgid "Network"
+msgstr "Hálózat"
+
+msgid "Software"
+msgstr "Szoftver"
+
+msgid "Developer"
+msgstr "Fejlesztő"
+
+msgid "Turn Off"
+msgstr "Kikapcsolás"
+
+msgid "Cancel"
+msgstr "Mégse"
+
+msgid "Confirm"
+msgstr "Megerősítés"
+
+msgid "Close"
+msgstr "Bezárás"
+
+msgid "Continue"
+msgstr "Folytatás"
+
+msgid "Back"
+msgstr "Vissza"
+
+msgid "Enable"
+msgstr "Engedélyezés"
+
+msgid "Disable"
+msgstr "Kikapcsolás"
+
+msgid "On"
+msgstr "Be"
+
+msgid "Off"
+msgstr "Ki"
+
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgid "Unknown speed limit"
+msgstr "Ismeretlen sebességhatár"
+
+msgid "Speed Limit"
+msgstr "Sebességhatár"
+
+msgid "Controls Ready"
+msgstr "A vezérlés kész"
+
+msgid "Controls Unavailable"
+msgstr "A vezérlés nem érhető el"
+
+msgid "Take Control"
+msgstr "Vedd át az irányítást"
+
+msgid "Driver Monitoring"
+msgstr "Vezetőfigyelés"
+
+msgid "Recording"
+msgstr "Felvétel"
+
+msgid "Error"
+msgstr "Hiba"
