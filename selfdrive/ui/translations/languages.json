@@ -1,5 +1,6 @@
 {
   "English": "en",
+  "Magyar": "hu",
   "Deutsch": "de",
   "Français": "fr",
   "Português": "pt-BR",
@@ -10,6 +11,5 @@
   "中文（繁體）": "zh-CHT",
   "中文（简体）": "zh-CHS",
   "한국어": "ko",
-  "日本語": "ja",
-  "Magyar": "hu"
+  "日本語": "ja"
 }

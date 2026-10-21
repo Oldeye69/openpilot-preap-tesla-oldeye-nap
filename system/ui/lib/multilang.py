@@ -21,6 +21,7 @@ UNIFONT_LANGUAGES = [
   "zh-CHS",
   "ko",
   "ja",
+  "hu",
 ]
 
 # Plural form selectors for supported languages
