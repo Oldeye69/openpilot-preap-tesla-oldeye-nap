@@ -3731,3 +3731,259 @@ msgstr ""
 #: openpilot/selfdrive/ui/widgets/prime.py
 msgid "✓ SUBSCRIBED"
 msgstr "✓ ELŐFIZETVE"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Longitudinal Control"
+msgstr "Hosszirányú vezérlés"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Pedal Interceptor"
+msgstr "Gázpedál-interceptor"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Enable Comma Pedal hardware for direct throttle control. Requires reboot."
+msgstr "A Comma Pedal közvetlen gázvezérlésének engedélyezése. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Adaptive Accel Limits"
+msgstr "Adaptív gyorsítási korlátok"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Reduces acceleration authority when close to a lead car to prevent overshoot. Full accel on open road or when closing a large gap."
+msgstr "Az előtted haladóhoz közel csökkenti a gyorsítást a túlfutás megelőzésére. Szabad úton vagy nagy követési távolság ledolgozásakor teljes gyorsítást enged."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Follow Distance"
+msgstr "Követési távolság"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Follow distance (1=closest, 7=farthest). Overridden by cruise stalk if present."
+msgstr "Követési távolság (1=legközelebbi, 7=legtávolabbi). A tempomatkarral felülbírálható, ha elérhető."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Pedal Hardware"
+msgstr "Pedálhardver"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Pedal CAN Bus"
+msgstr "Pedál CAN-busz"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Select which CAN bus the Comma Pedal is connected to. Requires reboot."
+msgstr "Válaszd ki, melyik CAN-buszra csatlakozik a Comma Pedal. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Bus 0"
+msgstr "0. busz"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Bus 2"
+msgstr "2. busz"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Calibrated"
+msgstr "Kalibrálva"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Not Calibrated"
+msgstr "Nincs kalibrálva"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Shows whether the pedal interceptor has been calibrated."
+msgstr "Megmutatja, hogy megtörtént-e a pedálinterceptor kalibrálása."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Calibrate Pedal"
+msgstr "Pedál kalibrálása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Start"
+msgstr "Indítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Run the pedal calibration routine. Vehicle must be stationary with ignition on."
+msgstr "Pedálkalibrálás indítása. A jármű álljon, a gyújtás legyen bekapcsolva."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar"
+msgstr "Radar"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Enabled"
+msgstr "Radar engedélyezve"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Enable the stock Bosch radar for lead car detection. Requires reboot."
+msgstr "A gyári Bosch radar használata az elöl haladó jármű felismeréséhez. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Behind Nosecone"
+msgstr "Radar az orrburkolat mögött"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Apply signal attenuation adjustment for radar mounted behind the nosecone. Requires reboot."
+msgstr "Jelcsillapítási korrekció alkalmazása az orrburkolat mögé szerelt radarnál. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Lateral Offset"
+msgstr "Radar oldalirányú eltolása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Lateral offset in meters added to radar yRel. Negative shifts leads toward the left of current radar reading; positive shifts right. Example: -0.27 for the 3D-printed factory-location mount."
+msgstr "A radar yRel értékéhez hozzáadott oldalirányú eltolás méterben. A negatív érték balra, a pozitív jobbra tolja a célpontokat. Példa: -0,27 m a gyári helyre illeszkedő, 3D-nyomtatott tartónál."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Calibrate Radar"
+msgstr "Radar kalibrálása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Run the radar calibration routine."
+msgstr "Radar-kalibrálási eljárás indítása."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Test Radar"
+msgstr "Radar tesztelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Test"
+msgstr "Teszt"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Test radar connectivity and verify signals."
+msgstr "A radar kapcsolatának és jeleinek ellenőrzése."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "iBooster / Braking"
+msgstr "iBooster / fékezés"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "iBooster Enabled"
+msgstr "iBooster engedélyezve"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Enable the iBooster brake-by-wire system for electronic braking. (Not yet implemented)"
+msgstr "Az iBooster elektronikus fékrendszer engedélyezése. (Még nincs megvalósítva.)"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Brake Factor"
+msgstr "Fékezési tényező"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Multiplier for brake force. Higher values brake more aggressively. (Not yet implemented)"
+msgstr "A fékerő szorzója. A nagyobb érték erőteljesebb fékezést jelent. (Még nincs megvalósítva.)"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Force Pre-AP Mode"
+msgstr "Pre-AP mód kényszerítése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Force the system to treat this vehicle as a Pre-Autopilot Tesla."
+msgstr "A rendszer a járművet Pre-Autopilot Tesla-modellként kezelje."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Actions"
+msgstr "Műveletek"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Backup EPAS"
+msgstr "EPAS biztonsági mentése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Extract"
+msgstr "Kinyerés"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Extract and save stock EPAS firmware image without flashing."
+msgstr "A gyári EPAS-firmware kinyerése és mentése felülírás nélkül."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Flash EPAS"
+msgstr "EPAS firmware írása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Flash"
+msgstr "Írás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Flash the EPAS (Electric Power Assisted Steering) firmware."
+msgstr "Az elektromos szervokormány (EPAS) firmware-ének felírása."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Restore EPAS"
+msgstr "EPAS visszaállítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Restore"
+msgstr "Visszaállítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Restore stock EPAS firmware image."
+msgstr "A gyári EPAS-firmware visszaállítása."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Emergency Disable"
+msgstr "Vészhelyzeti kikapcsolás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Immediately disable pedal interceptor and clear calibration. Restart required."
+msgstr "A pedálinterceptor azonnali kikapcsolása és a kalibrálás törlése. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Reset to Defaults"
+msgstr "Alapértékek visszaállítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Reset all NAP settings to factory defaults. This cannot be undone."
+msgstr "Minden NAP-beállítás visszaállítása az alapértékekre. Ez nem vonható vissza."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Acknowledgments"
+msgstr "Köszönetnyilvánítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Pedal Calibration"
+msgstr "Pedálkalibrálás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Calibration"
+msgstr "Radar kalibrálása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Test"
+msgstr "Radar tesztelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Flash EPAS Firmware"
+msgstr "EPAS firmware írása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Backup EPAS Firmware"
+msgstr "EPAS firmware mentése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Restore EPAS Firmware"
+msgstr "EPAS firmware visszaállítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Lateral Offset (m)"
+msgstr "Radar oldalirányú eltolása (m)"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "<h1>Reboot Required</h1><br><p>This change requires a reboot to take effect.</p>"
+msgstr "<h1>Újraindítás szükséges</h1><br><p>A módosítás csak újraindítás után lép életbe.</p>"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Ignore"
+msgstr "Mellőzés"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "<h1>Emergency Disable</h1><br><p>This will disable the pedal interceptor and clear calibration. You will need to restart the device for changes to take effect.</p>"
+msgstr "<h1>Vészhelyzeti kikapcsolás</h1><br><p>Ez kikapcsolja a pedálinterceptort és törli a kalibrálást. A módosítás életbe lépéséhez újra kell indítani az eszközt.</p>"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "<h1>Reset to Defaults</h1><br><p>This will reset all NAP settings to their factory default values. This action cannot be undone.</p>"
+msgstr "<h1>Alapértékek visszaállítása</h1><br><p>Minden NAP-beállítás visszaáll a gyári alapértékre. Ez a művelet nem vonható vissza.</p>"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Reset All"
+msgstr "Összes visszaállítása"
