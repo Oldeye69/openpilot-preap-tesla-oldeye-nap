@@ -11,10 +11,9 @@ LANGUAGES_FILE = TRANSLATIONS_DIR / "languages.json"
 
 GLYPH_PADDING = 6
 EXTRA_CHARS = "–‑✓×°§•X⚙✕◀▶✔⌫⇧␣○●↳çêüñ–‑✓×°§•€£¥"
-# Hungarian uses characters outside the base Inter atlas (notably ő/ű).
-# Keep its translated glyphs in the Unifont atlas, which the runtime selects
-# through UNIFONT_LANGUAGES in the UI font fallback.
-UNIFONT_LANGUAGES = {"hu", "th", "zh-CHT", "zh-CHS", "ko", "ja"}
+# Keep the bitmap fallback for scripts that need it. Hungarian glyphs are
+# included in the Inter atlas so the UI can render them with the normal font.
+UNIFONT_LANGUAGES = {"th", "zh-CHT", "zh-CHS", "ko", "ja"}
 
 
 def _languages():
