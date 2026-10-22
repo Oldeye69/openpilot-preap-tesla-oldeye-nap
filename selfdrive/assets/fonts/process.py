@@ -11,6 +11,8 @@ LANGUAGES_FILE = TRANSLATIONS_DIR / "languages.json"
 
 GLYPH_PADDING = 6
 EXTRA_CHARS = "–‑✓×°§•X⚙✕◀▶✔⌫⇧␣○●↳çêüñ–‑✓×°§•€£¥"
+# Keep Hungarian glyphs available for runtime messages as well as catalog text.
+HUNGARIAN_CHARS = "áéíóöőúüűÁÉÍÓÖŐÚÜŰ"
 UNIFONT_LANGUAGES = {"th", "zh-CHT", "zh-CHS", "ko", "ja"}
 
 
@@ -22,7 +24,7 @@ def _languages():
 
 
 def _char_sets():
-  base = set(map(chr, range(32, 127))) | set(EXTRA_CHARS)
+  base = set(map(chr, range(32, 127))) | set(EXTRA_CHARS) | set(HUNGARIAN_CHARS)
   unifont = set(base)
 
   for language, code in _languages().items():
@@ -83,7 +85,7 @@ def _write_bmfont(path: Path, font_size: int, face: str, atlas_name: str, line_h
       ("char id={id:<4} x={x:<5} y={y:<5} width={width:<5} height={height:<5} " +
        "xoffset={xoffset:<5} yoffset={yoffset:<5} xadvance={xadvance:<5} page=0  chnl=15").format(**entry)
     )
-  path.write_text("\n".join(lines) + "\n")
+  path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def _process_font(font_path: Path, codepoints: tuple[int, ...]):
