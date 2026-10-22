@@ -61,7 +61,12 @@ def or_(*fns):
 def and_(*fns):
   return lambda *args: operator.and_(*(fn(*args) for fn in fns))
 
+def road_context_display(started, params, CP):
+  return started and params.get_bool("RoadContextEnabled")
+
+
 procs = [
+  PythonProcess("roadcontextd", "selfdrive.road_context.roadcontextd", road_context_display),
   DaemonProcess("manage_athenad", "system.athena.manage_athenad", "AthenadPid"),
 
   NativeProcess("loggerd", "system/loggerd", ["./loggerd"], logging),

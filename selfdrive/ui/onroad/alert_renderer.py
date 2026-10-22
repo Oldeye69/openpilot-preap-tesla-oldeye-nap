@@ -1,4 +1,5 @@
 import time
+from openpilot.selfdrive.ui.onroad.alert_translation import translate_alert_text
 import pyray as rl
 from dataclasses import dataclass
 from cereal import messaging, log
@@ -118,6 +119,8 @@ class AlertRenderer(Widget):
     alert = self.get_alert(ui_state.sm)
     if not alert:
       return
+
+    alert = Alert(text1=translate_alert_text(alert.text1), text2=translate_alert_text(alert.text2), size=alert.size, status=alert.status)
 
     alert_rect = self._get_alert_rect(rect, alert.size)
     self._draw_background(alert_rect, alert)

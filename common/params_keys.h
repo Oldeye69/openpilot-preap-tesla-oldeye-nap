@@ -6,6 +6,15 @@
 #include "cereal/gen/cpp/log.capnp.h"
 
 inline static std::unordered_map<std::string, ParamKeyAttributes> keys = {
+    {"RoadContextEnabled", {PERSISTENT, BOOL, "0"}},
+    {"RoadContextMapPath", {PERSISTENT, STRING}},
+    {"RoadContextEnforcementPath", {PERSISTENT, STRING}},
+    {"RoadContextPolicyPath", {PERSISTENT, STRING}},
+    {"RoadContextPolicyAction", {CLEAR_ON_MANAGER_START, JSON}},
+    {"RoadContextWarningDisabledReason", {PERSISTENT, STRING}},
+    {"RoadContextSpeedMode", {PERSISTENT, STRING, "DISPLAY_ONLY"}},
+    {"SpeedCameraWarnings", {PERSISTENT, BOOL, "0"}},
+
     {"AccessToken", {CLEAR_ON_MANAGER_START | DONT_LOG, STRING}},
     {"AdbEnabled", {PERSISTENT, BOOL}},
     {"AlwaysOnDM", {PERSISTENT, BOOL}},

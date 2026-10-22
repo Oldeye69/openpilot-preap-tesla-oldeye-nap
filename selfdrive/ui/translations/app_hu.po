@@ -1,0 +1,4211 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid " Steering torque response calibration is complete."
+msgstr " A kormányzási nyomatékválasz kalibrálása kész."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid " Steering torque response calibration is {}% complete."
+msgstr " A kormányzási nyomatékválasz kalibrálása {}%-nál tart."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid " Your device is pointed {:.1f}° {} and {:.1f}° {}."
+msgstr " Az eszköz dőlése: {:.1f}° {}, {:.1f}° {}."
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "--"
+msgstr "--"
+
+#: openpilot/selfdrive/ui/widgets/prime.py
+msgid "1 year of drive storage"
+msgstr "Vezetési adatok tárolása 1 évig"
+
+#: openpilot/selfdrive/ui/widgets/prime.py
+msgid "24/7 LTE connectivity"
+msgstr "Folyamatos LTE-kapcsolat"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "2G"
+msgstr "2G"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "3G"
+msgstr "3G"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "5G"
+msgstr "5G"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "<b>WARNING: openpilot longitudinal control is in alpha for this car and may disable Automatic Emergency Braking (AEB).</b><br><br>On this car, openpilot defaults to the car's built-in ACC instead of openpilot's longitudinal control. Enable this to switch to openpilot longitudinal control. Enabling Experimental mode is recommended when enabling openpilot longitudinal control alpha. Changing this setting will restart openpilot if the car is powered on."
+msgstr "<b>FIGYELEM: Az openpilot hosszirányú vezérlése ennél az autónál alfa állapotú, és kikapcsolhatja az automatikus vészfékezést (AEB).</b><br><br>Ennél az autónál az openpilot alapértelmezés szerint a gyári ACC-t használja a saját hosszirányú vezérlése helyett. A bekapcsolással az openpilot hosszirányú vezérlésére váltasz. Az alfa hosszirányú vezérléshez ajánlott a kísérleti mód bekapcsolása. Ha a jármű be van kapcsolva, a beállítás módosítása újraindítja az openpilot rendszert."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "<br><br>Steering lag calibration is complete."
+msgstr "<br><br>A kormányzási késleltetés kalibrálása kész."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "<br><br>Steering lag calibration is {}% complete."
+msgstr "<br><br>A kormányzási késleltetés kalibrálása {}%-nál tart."
+
+#: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
+msgid "ACTIVE"
+msgstr "AKTÍV"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "ADB (Android Debug Bridge) allows connecting to your device over USB or over the network. See https://docs.comma.ai/how-to/connect-to-comma for more info."
+msgstr "Az ADB (Android Debug Bridge) USB-n vagy hálózaton keresztüli kapcsolódást tesz lehetővé. További információ: https://docs.comma.ai/how-to/connect-to-comma."
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py
+msgid "ADD"
+msgstr "HOZZÁAD"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "AEB: Risk of Collision"
+msgstr "AEB: Ütközésveszély"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "AGNOS version"
+msgstr "AGNOS-verzió"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "APN Setting"
+msgstr "APN beállítása"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "AVERAGE SPEED CONTROL {remaining:.1f} km remaining"
+msgstr "ÁTLAGSEBESSÉG-MÉRÉS: még {remaining:.1f} km"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "AVERAGE SPEED END"
+msgstr "ÁTLAGSEBESSÉG-MÉRÉS VÉGE"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "AVERAGE SPEED START"
+msgstr "ÁTLAGSEBESSÉG-MÉRÉS KEZDETE"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "AVERAGE SPEED ZONE"
+msgstr "ÁTLAGSEBESSÉG-MÉRÉSI SZAKASZ"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Abnormal tire stiffness"
+msgstr "Rendellenes gumiabroncs-merevség"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Abort and Preserve"
+msgstr "Megszakítás és megőrzés"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Accept speed proposal"
+msgstr "Sebességjavaslat elfogadása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Account identifiers"
+msgstr "Fiókazonosítók"
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py
+msgid "Acknowledge Excessive Actuation"
+msgstr "Túlzott beavatkozás tudomásulvétele"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Active commands, feed, flashing and vehicle actuation are not authorized."
+msgstr "Aktív parancsok, betáplálás, firmware-írás és járművezérlés nem engedélyezett."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Active output: not authorized"
+msgstr "Aktív kimenet: nincs engedélyezve"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Adapter inspection"
+msgstr "Adapter ellenőrzése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Adapter qualification"
+msgstr "Adapter minősítése"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Adaptive Cruise Disabled"
+msgstr "Az adaptív tempomat ki van kapcsolva"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Adjust the max Speed"
+msgstr "A maximális sebesség beállítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Advance Simulation"
+msgstr "Szimuláció léptetése"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Advanced"
+msgstr "Speciális"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "After the recorded quiet interval, unlock and enter normally. Mark the first wake action."
+msgstr "A rögzített csendes időszak után nyissa ki az autót és szálljon be. Jelölje az első ébresztő műveletet."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Aggressive"
+msgstr "Dinamikus"
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py
+msgid "Agree"
+msgstr "Elfogadás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Alignment, orientation and nosecone"
+msgstr "Beállítás, tájolás és orrburkolat"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "All Tests"
+msgstr "Összes teszt"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "All compatible chargers"
+msgstr "Minden kompatibilis töltő"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Allow Automatic Speed Increase"
+msgstr "Automatikus sebességnövelés engedélyezése"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Allow other chargers for this trip"
+msgstr "Más töltők engedélyezése erre az útra"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Allow {station}"
+msgstr "{station} engedélyezése"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Always keep hands on wheel and eyes on road"
+msgstr "Mindig tartsd a kezed a kormányon és figyeld az utat"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Always-On Driver Monitoring"
+msgstr "Folyamatos vezetőfigyelés"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "An alpha version of openpilot longitudinal control can be tested, along with Experimental mode, on non-release branches."
+msgstr "Az openpilot hosszirányú vezérlésének alfa változata a kísérleti móddal együtt a nem kiadási ágakon tesztelhető."
+
+#: openpilot/system/ui/tici_updater.py
+msgid "An operating system update is required. Connect your device to Wi-Fi for the fastest update experience. "
+msgstr "Az operációs rendszert frissíteni kell. A gyorsabb frissítéshez csatlakoztasd az eszközt Wi-Fi-hálózathoz. "
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid "An update to your device's operating system is downloading in the background. You will be prompted to update when it's ready to install."
+msgstr "Az eszköz operációs rendszerének frissítése a háttérben töltődik le. Értesítést kapsz, amikor telepíthető."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Analyze Evidence"
+msgstr "Bizonyítékok elemzése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Analyzing"
+msgstr "Elemzés alatt"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Angle offset too high (Offset: {0}°)"
+msgstr "Túl nagy szögeltérés (eltérés: {0}°)"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Annotate sign, end limit, town entry/exit, motorway entry/exit, camera and variable-sign events with independent times."
+msgstr "Független időpontokkal jelölje a táblát, korlátozás végét, település- és autópályahatárt, kamerát és változó jelzést."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Anonymous vehicle ID"
+msgstr "Névtelen járműazonosító"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Approve Independent Review"
+msgstr "Független értékelés jóváhagyása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Approve Package and Create Commit"
+msgstr "Csomag jóváhagyása és commit készítése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Approve This Commit for Push"
+msgstr "Ezen commit feltöltésének jóváhagyása"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Are you sure you want to power off?"
+msgstr "Biztosan kikapcsolod?"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Are you sure you want to reboot?"
+msgstr "Biztosan újraindítod?"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Are you sure you want to reset calibration?"
+msgstr "Biztosan törlöd a kalibrálást?"
+
+#: openpilot/system/ui/tici_reset.py
+msgid "Are you sure you want to reset your device?"
+msgstr "Biztosan visszaállítod az eszközt?"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Are you sure you want to uninstall?"
+msgstr "Biztosan eltávolítod?"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Assist"
+msgstr "Javaslat"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Audio checked and audible"
+msgstr "Ellenőrzött, hallható hang"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Auto"
+msgstr "Automata"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Auto high beam"
+msgstr "Automatikus távolsági"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Auto low beam"
+msgstr "Automatikus tompított"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Auto ready"
+msgstr "Automatika készen"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Automatic replan from updated offline route data"
+msgstr "Automatikus újratervezés frissített offline útvonaladatból"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Availability unknown unless a fresh provider confirms it"
+msgstr "Friss szolgáltatói adat nélkül a foglaltság ismeretlen"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Available capability"
+msgstr "Elérhető képesség"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Available channel"
+msgstr "Elérhető csatorna"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Avoid charging stops for this trip"
+msgstr "Töltőmegállók kihagyása erre az útra"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Avoid {station}"
+msgstr "{station} kihagyása"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "BRAKE!"
+msgstr "FÉKEZZ!"
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+#: openpilot/system/ui/tici_setup.py
+#: openpilot/system/ui/tici_updater.py
+#: openpilot/system/ui/widgets/network.py
+msgid "Back"
+msgstr "Vissza"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Be ready to take over at any time"
+msgstr "Bármikor légy kész átvenni a vezetést"
+
+#: openpilot/selfdrive/ui/widgets/prime.py
+msgid "Become a comma prime member at connect.comma.ai"
+msgstr "Légy comma prime előfizető a connect.comma.ai oldalon"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Before we continue, please confirm the following:"
+msgstr "A folytatás előtt erősítsd meg:"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Before we get on the road, let's finish installation and cover some details."
+msgstr "Indulás előtt fejezzük be a telepítést, és tekintsünk át néhány tudnivalót."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Begin Training"
+msgstr "Útmutató indítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Begin bench session"
+msgstr "Próbapadi tesztmenet indítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Begin passive driving session"
+msgstr "Passzív vezetési tesztmenet indítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Begin separate stock-cruise session"
+msgstr "Külön gyári tempomatteszt indítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Begin stationary session"
+msgstr "Állóhelyzeti tesztmenet indítása"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Big Model Failed "
+msgstr "A nagy modell hibás "
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Big Model Loading"
+msgstr "Nagy modell betöltése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Blocked"
+msgstr "Blokkolva"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Blocked by"
+msgstr "Akadály"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Blocked camera evidence"
+msgstr "Letakart kamera bizonyítékai"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Bookmark Saved"
+msgstr "Könyvjelző mentve"
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py
+msgid "Bookmark connect.comma.ai to your home screen to use it like an app"
+msgstr "Tedd a connect.comma.ai oldalt a kezdőképernyőre, hogy alkalmazásként használhasd"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Build: {date}"
+msgstr "Fordítás: {date}"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "CAMERA LIMIT {limit:.0f} {unit}"
+msgstr "KAMERA: {limit:.0f} {unit}"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "CAN Bus Disconnected"
+msgstr "Nincs CAN-buszkapcsolat"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "CAN Bus Disconnected: Check Connections"
+msgstr "Nincs CAN-buszkapcsolat: Ellenőrizd a csatlakozókat"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "CAN Bus Disconnected: Likely Faulty Cable"
+msgstr "Nincs CAN-buszkapcsolat: Valószínű kábelhiba"
+
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py
+msgid "CAN: receive only / validation incomplete"
+msgstr "CAN: csak vétel / az ellenőrzés még nem teljes"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "CHANGE"
+msgstr "MÓDOSÍTÁS"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "CHECK"
+msgstr "ELLENŐRZÉS"
+
+#: openpilot/selfdrive/ui/widgets/exp_mode_button.py
+msgid "CHILL MODE ON"
+msgstr "NYUGODT MÓD BE"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+#: openpilot/system/ui/widgets/network.py
+msgid "CONNECT"
+msgstr "CSATLAKOZÁS"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "CONNECTING..."
+msgstr "CSATLAKOZÁS..."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Cabin Camera"
+msgstr "Belső kamera"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Cabin camera"
+msgstr "Utastéri kamera"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Cabin faces"
+msgstr "Utastéri arcok"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Calculate EV trip"
+msgstr "EV-útvonal kiszámítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Calculating EV route"
+msgstr "EV-útvonal számítása"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Calibrating"
+msgstr "Kalibrálás"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Calibration Incomplete"
+msgstr "A kalibrálás nem teljes"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Calibration Invalid"
+msgstr "Érvénytelen kalibrálás"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Calibration Invalid: Remount Device & Recalibrate"
+msgstr "Hibás kalibrálás: Szereld át és kalibráld újra az eszközt"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Calibration in Progress"
+msgstr "Kalibrálás folyamatban"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Camera"
+msgstr "Kamera"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Camera Frame Rate Low"
+msgstr "Alacsony kamera-képfrekvencia"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Camera Frame Rate Low: Reboot Your Device"
+msgstr "Alacsony kamera-képfrekvencia: Indítsd újra az eszközt"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Camera Malfunction"
+msgstr "Kamerahiba"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Camera Malfunction: Reboot Your Device"
+msgstr "Kamerahiba: Indítsd újra az eszközt"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Camera availability"
+msgstr "Kamerák elérhetősége"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Camera covered"
+msgstr "Letakart kamera"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Camera recording consent"
+msgstr "Hozzájárulás kamerafelvételhez"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Camera unavailable"
+msgstr "A kamera nem érhető el"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Camera warnings and country policy"
+msgstr "Kamerafigyelmeztetések és országfüggő szabályok"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Camera warnings available here. Re-enable?"
+msgstr "Itt elérhető a kamerák jelzése. Visszakapcsolod?"
+
+#: openpilot/system/ui/tici_reset.py
+#: openpilot/system/ui/widgets/confirm_dialog.py
+#: openpilot/system/ui/widgets/keyboard.py
+#: openpilot/system/ui/widgets/network.py
+#: openpilot/system/ui/widgets/option_dialog.py
+msgid "Cancel"
+msgstr "Mégse"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Cancel Pressed"
+msgstr "Megnyomtad a megszakítás gombját"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Cancel stock cruise with its original stalk and resume normal manual speed control."
+msgstr "A gyári karral kapcsolja ki a tempomatot, és vegye vissza a sebesség kézi szabályozását."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Capture covers before power-on through power-off"
+msgstr "A rögzítés a bekapcsolás előttől a kikapcsolásig tart"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Capture has not started. Review prerequisites."
+msgstr "A rögzítés nem indult el. Ellenőrizze az előfeltételeket."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Captured"
+msgstr "Rögzítve"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Car Detected in Blindspot"
+msgstr "Jármű a holttérben"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Car Not Ready"
+msgstr "A jármű nem áll készen"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Car Unrecognized"
+msgstr "Ismeretlen jármű"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Car in Blindspot"
+msgstr "Jármű a holttérben"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Cellular Metered"
+msgstr "Korlátos mobilinternet"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Change Language"
+msgstr "Nyelv módosítása"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Changing Lanes"
+msgstr "Sávváltás"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Changing this setting will restart openpilot if the car is powered on."
+msgstr "Ha a jármű be van kapcsolva, a beállítás módosítása újraindítja az openpilot rendszert."
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Charging power: {power:.0f} kW"
+msgstr "Töltési teljesítmény: {power:.0f} kW"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Charging: {soc:.0f}% → {target:.0f}% / {minutes:.0f} min remaining"
+msgstr "Töltés: {soc:.0f}% → {target:.0f}% / még {minutes:.0f} perc"
+
+#: openpilot/selfdrive/ui/onroad/driver_assist.py
+msgid "Check the cabin camera and driver visibility"
+msgstr "Ellenőrizze az utastéri kamerát és a vezető láthatóságát"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Check tires, pressure, or alignment (Factor: {0})"
+msgstr "Ellenőrizd a gumikat, a nyomást és a futóművet (tényező: {0})"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Choose Software to Use"
+msgstr "Használni kívánt szoftver"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Clean evidence repository path"
+msgstr "Tiszta bizonyítéktároló elérési útja"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Clean source"
+msgstr "Módosítatlan forrás"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Clear"
+msgstr "Nincs akadály"
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py
+msgid "Click \"add new device\" and scan the QR code on the right"
+msgstr "Válaszd az „add new device” lehetőséget, majd olvasd be a jobb oldali QR-kódot"
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py
+msgid "Close"
+msgstr "Bezárás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Cold boot"
+msgstr "Hidegindítás"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Communication Issue Between Processes"
+msgstr "Kommunikációs hiba a folyamatok között"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Compare speed and charging strategies"
+msgstr "Sebesség- és töltési lehetőségek összehasonlítása"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Confidence {confidence:.0%} | age {age:.1f}s | road {road:.0%}"
+msgstr "Megbízhatóság: {confidence:.0%} | kor: {age:.1f}s | út: {road:.0%}"
+
+#: openpilot/system/ui/tici_reset.py
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Confirm Lane Change"
+msgstr "Erősítsd meg a sávváltást"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Confirm installed hardware"
+msgstr "Beszerelt hardver megerősítése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Confirm only independently established prerequisites. This does not replace evidence qualification."
+msgstr "Csak függetlenül megállapított előfeltételt igazoljon. Ez nem helyettesíti a bizonyítékok minősítését."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Confirm safely parked before answering"
+msgstr "Válaszadás előtt erősítse meg, hogy biztonságosan parkol"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Confirmed"
+msgstr "Megerősítve"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Conflicting sources"
+msgstr "Ellentmondó források"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Congratulations! You have completed openpilot training."
+msgstr "Elvégezted az openpilot oktatását."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Connect availability"
+msgstr "Connect elérhetősége"
+
+#: openpilot/system/ui/tici_setup.py
+#: openpilot/system/ui/tici_updater.py
+msgid "Connect to Wi-Fi"
+msgstr "Csatlakozás Wi-Fi-hez"
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid "Connect to internet to check for updates. openpilot won't automatically start until it connects to internet to check for updates."
+msgstr "Csatlakozz az internethez a frissítések ellenőrzéséhez. Az openpilot addig nem indul el automatikusan, amíg internetkapcsolaton nem ellenőrizte a frissítéseket."
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Contact comma.ai/support"
+msgstr "Segítség: comma.ai/support"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Continue"
+msgstr "Tovább"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Continue Testing"
+msgstr "Tesztelés folytatása"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Continue without Wi-Fi"
+msgstr "Folytatás Wi-Fi nélkül"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Controls Mismatch"
+msgstr "Vezérlési eltérés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Create Grouped Session Plan"
+msgstr "Csoportosított tesztmenet létrehozása"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Cruise Fault: Restart the Car"
+msgstr "Tempomathiba: Indítsd újra az autót"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Cruise Fault: Restart the car to engage"
+msgstr "Tempomathiba: A bekapcsoláshoz indítsd újra az autót"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Cruise Is Off"
+msgstr "A tempomat ki van kapcsolva"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Current Version"
+msgstr "Jelenlegi verzió"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Current displayed SOC (%)"
+msgstr "Jelenleg kijelzett töltöttség (%)"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Custom Software"
+msgstr "Egyéni szoftver"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "DANGER ZONE"
+msgstr "VESZÉLYES SZAKASZ"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "DBC hash"
+msgstr "DBC-hash"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "DISENGAGE IMMEDIATELY"
+msgstr "AZONNAL KAPCSOLD KI A VEZETÉSTÁMOGATÁST"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "DOWNLOAD"
+msgstr "LETÖLTÉS"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Dark"
+msgstr "Sötét"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Dashcam Mode"
+msgstr "Fedélzeti kamera mód"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Dashcam mode"
+msgstr "Fedélzeti kamera mód"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Dashcam mode for unsupported car"
+msgstr "Fedélzeti kamera mód nem támogatott autóhoz"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Decimal CAN identifiers, separated by spaces"
+msgstr "Decimális CAN-azonosítók szóközzel elválasztva"
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py
+msgid "Decline"
+msgstr "Elutasítás"
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py
+msgid "Decline, uninstall openpilot"
+msgstr "Elutasítás és eltávolítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Destination reserve (5–50%)"
+msgstr "Célállomási tartalék (5–50%)"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Destination reserve: {soc:.0f}%"
+msgstr "Célállomási tartalék: {soc:.0f}%"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py
+msgid "Developer"
+msgstr "Fejlesztői"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py
+msgid "Device"
+msgstr "Eszköz"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Device Remount Detected: Recalibrating"
+msgstr "Megváltozott rögzítés: Újrakalibrálás"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Device build pending"
+msgstr "Az eszközön történő fordítás függőben"
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid "Device temperature too high. System cooling down before starting. Current internal component temperature: %1"
+msgstr "Az eszköz túl meleg. Indítás előtt a rendszer lehűl. Jelenlegi belső alkatrész-hőmérséklet: %1"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Did you independently observe the requested physical or displayed state?"
+msgstr "Függetlenül megfigyelte a kért fizikai állapotot vagy kijelzést?"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Disable"
+msgstr "Kikapcsolás"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Disable speed camera warnings?"
+msgstr "Kikapcsolod a sebességmérő kamerák jelzését?"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Disable your car's stock LKAS to engage"
+msgstr "A bekapcsoláshoz kapcsold ki a gyári sávtartót"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Disengage on Accelerator Pedal"
+msgstr "Kikapcsolás gázpedálra"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Disengage openpilot"
+msgstr "Az openpilot kikapcsolása"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Disengage to Power Off"
+msgstr "Kikapcsoláshoz kapcsold ki a vezetéstámogatást"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Disengage to Reboot"
+msgstr "Újraindításhoz kapcsold ki a vezetéstámogatást"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Disengage to Reset Calibration"
+msgstr "A kalibrálás törléséhez kapcsold ki a vezetéstámogatást"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Display"
+msgstr "Kijelzés"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Display only by default; AUTO needs a separate experimental opt-in."
+msgstr "Alapértelmezés szerint csak kijelzés; az automatikus módhoz külön kísérleti engedélyezés kell."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Display speed in km/h instead of mph."
+msgstr "Sebesség kijelzése km/h-ban mph helyett."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Display state"
+msgstr "Kijelző állapota"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Displayed speed unit"
+msgstr "Kijelzett sebességmértékegység"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Distracted Driving"
+msgstr "Figyelmetlen vezetés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Document passive observations and independent instrument or recording evidence. Do not command, flash or modify hardware."
+msgstr "Rögzítsen passzív megfigyelést és független bizonyítékot. Ne vezéreljen és ne módosítson hardvert vagy firmware-t."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Dongle ID"
+msgstr "Dongle ID"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Door Open"
+msgstr "Nyitva van egy ajtó"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Doors and trunks"
+msgstr "Ajtók és csomagterek"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Download"
+msgstr "Letöltés"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Download Failed"
+msgstr "Sikertelen letöltés"
+
+#: openpilot/system/ui/tici_setup.py
+#: openpilot/system/ui/tici_updater.py
+msgid "Downloading..."
+msgstr "Letöltés..."
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Drive Above {0}"
+msgstr "Haladj {0} felett"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Drive above {0} to engage"
+msgstr "Bekapcsoláshoz haladj {0} felett"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Drive gently on a clear straight path. The passenger records displayed speed and units."
+msgstr "Haladjon egyenesen, óvatosan, szabad útszakaszon. Az utas rögzítse a kijelzett sebességet és mértékegységet."
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Drive to Calibrate"
+msgstr "Vezess a kalibráláshoz"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Drive, stationary"
+msgstr "D fokozat, álló helyzetben"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Driver"
+msgstr "Vezető"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Driver Attention Policy"
+msgstr "Vezetői figyelem kezelése"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Driver Distracted"
+msgstr "A vezető nem figyel"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Driver Monitoring"
+msgstr "Vezetőfigyelés"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Driver Unresponsive"
+msgstr "A vezető nem reagál"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Driver monitoring runtime"
+msgstr "Vezetőfigyelő modell futása"
+
+#: openpilot/selfdrive/ui/onroad/driver_assist.py
+msgid "Driver monitoring unavailable"
+msgstr "A vezetőfigyelés nem érhető el"
+
+#: openpilot/selfdrive/ui/onroad/driver_assist.py
+msgid "Driver not responding"
+msgstr "A vezető nem reagál"
+
+#: openpilot/selfdrive/ui/onroad/driver_assist.py
+msgid "Driver response required"
+msgstr "Vezetői reakció szükséges"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Driver seatbelt"
+msgstr "Vezető biztonsági öve"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Driving Model Lagging"
+msgstr "A vezetési modell késik"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Driving Personality"
+msgstr "Vezetési stílus"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Driving Personality: {0}"
+msgstr "Vezetési stílus: {0}"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Driving model runtime"
+msgstr "Vezetési modell futása"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Drowsiness Protection"
+msgstr "Elalvás elleni védelem"
+
+#: openpilot/selfdrive/ui/onroad/driver_assist.py
+msgid "Drowsiness detected"
+msgstr "Elalvás veszélye"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Drowsiness evidence"
+msgstr "Álmosság bizonyítékai"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Dual input and calibration evidence"
+msgstr "Kettős bemenet és kalibráció bizonyítékai"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Dynamic map"
+msgstr "Dinamikus térkép"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "EDIT"
+msgstr "MÓDOSÍTÁS"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "ERROR"
+msgstr "HIBA"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "ETH"
+msgstr "ETH"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py
+msgid "EV Trip"
+msgstr "EV-utazás"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "EV Trip Planner"
+msgstr "EV-útvonaltervező"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "EV plan is stale; refresh SOC and route data"
+msgstr "Az EV-útiterv elavult; frissítse a töltöttséget és az útvonaladatokat"
+
+#: openpilot/selfdrive/ui/onroad/ev_trip.py
+msgid "EV plan: {soc:.0f}% arrival · {minutes:.0f} min"
+msgstr "EV-terv: {soc:.0f}% érkezéskor · {minutes:.0f} perc"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "EV planner unavailable; normal driving is unaffected"
+msgstr "Az EV-tervező nem érhető el; a vezetést nem befolyásolja"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "EV trip settings"
+msgstr "EV-utazás beállításai"
+
+#: openpilot/selfdrive/ui/widgets/exp_mode_button.py
+msgid "EXPERIMENTAL MODE ON"
+msgstr "KÍSÉRLETI MÓD BE"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Electronic Stability Control Active"
+msgstr "Menetstabilizáló beavatkozás"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Electronic Stability Control Disabled"
+msgstr "A menetstabilizáló ki van kapcsolva"
+
+#: openpilot/selfdrive/ui/onroad/driver_assist.py
+msgid "Emergency Assist requested"
+msgstr "Vészhelyzeti asszisztens kérése"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Emergency Braking: Risk of Collision"
+msgstr "Vészfékezés: Ütközésveszély"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Enable"
+msgstr "Bekapcsolás"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "Enable ADB"
+msgstr "ADB engedélyezése"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Enable Adaptive Cruise to Engage"
+msgstr "Bekapcsoláshoz engedélyezd az adaptív tempomatot"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Enable Lane Departure Warnings"
+msgstr "Sávelhagyás-jelzés"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Enable Main Switch to Engage"
+msgstr "Bekapcsoláshoz használd a főkapcsolót"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Enable Roaming"
+msgstr "Adatroaming"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "Enable SSH"
+msgstr "SSH engedélyezése"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Enable Tethering"
+msgstr "Internetmegosztás"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Enable driver monitoring even when openpilot is not engaged."
+msgstr "Vezetőfigyelés akkor is, amikor az openpilot vezetéstámogatása nincs bekapcsolva."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Enable openpilot"
+msgstr "openpilot bekapcsolása"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Enable the openpilot longitudinal control (alpha) toggle to allow Experimental mode."
+msgstr "A kísérleti módhoz kapcsold be az openpilot hosszirányú vezérlését (alfa)."
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Enable your car's LKAS to engage"
+msgstr "A bekapcsoláshoz kapcsold be a gyári sávtartót"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Energy AUTO: unavailable"
+msgstr "Automatikus energiatakarékos sebesség: nem elérhető"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Energy advice off"
+msgstr "Sebességjavaslat kikapcsolva"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Energy advice: suggestions"
+msgstr "Energiatakarékos sebesség: javaslat"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Engage openpilot"
+msgstr "Az openpilot bekapcsolása"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Enough energy to continue"
+msgstr "Elég energia a továbbinduláshoz"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Ensure road ahead is clear"
+msgstr "Ellenőrizd, hogy szabad-e az út előtted"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Ensure the entered URL is valid, and the device's internet connection is good."
+msgstr "Ellenőrizd a megadott URL-t és az eszköz internetkapcsolatát."
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Enter APN"
+msgstr "APN megadása"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Enter SSID"
+msgstr "SSID megadása"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Enter URL"
+msgstr "URL megadása"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Enter current SOC (%)"
+msgstr "Aktuális töltöttség megadása (%)"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Enter new tethering password"
+msgstr "Új megosztási jelszó"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Enter password"
+msgstr "Jelszó megadása"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py
+msgid "Enter your GitHub username"
+msgstr "GitHub-felhasználónév megadása"
+
+#: openpilot/system/ui/widgets/list_view.py
+msgid "Error"
+msgstr "Hiba"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Every tested channel and physical mapping"
+msgstr "Minden vizsgált csatorna és fizikai kiosztás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Evidence Attachments"
+msgstr "Csatolt bizonyítékok"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Evidence collection consent"
+msgstr "Hozzájárulás bizonyítékgyűjtéshez"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Evidence rationale"
+msgstr "Bizonyíték értékelésének indoklása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Evidence state"
+msgstr "Bizonyíték állapota"
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid "Excessive %1 actuation detected on your last drive. Please contact support at https://comma.ai/support and share your device's Dongle ID for troubleshooting."
+msgstr "A legutóbbi úton túlzott %1 beavatkozást észleltünk. Kérj segítséget a https://comma.ai/support oldalon, és add meg az eszköz Dongle ID azonosítóját a hibakereséshez."
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Excessive Actuation"
+msgstr "Túlzott beavatkozás"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Experimental Mode"
+msgstr "Kísérleti mód"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Experimental Speed Limit AUTO"
+msgstr "Kísérleti automatikus sebességhatár-követés"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Experimental camera-based warnings only. No automatic stop. Thresholds are not validated."
+msgstr "Kísérleti, kamerán alapuló figyelmeztetések. Nincs automatikus megállás. A küszöbértékek még nem hitelesítettek."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Experimental mode is currently unavailable on this car since the car's stock ACC is used for longitudinal control."
+msgstr "A kísérleti mód ennél az autónál nem érhető el, mert a hosszirányú vezérlést a gyári ACC végzi."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Explicit commit approver"
+msgstr "Commit kifejezett jóváhagyója"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Explicit push approver"
+msgstr "Feltöltés kifejezett jóváhagyója"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Exterior"
+msgstr "Külső tér"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "FORGETTING..."
+msgstr "ELFELEJTÉS..."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Face outside view"
+msgstr "Arc a látómezőn kívül"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Failed"
+msgstr "Sikertelen"
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid "Failed to register with comma.ai backend. It will not connect or upload to comma.ai servers, and receives no support from comma.ai. If this is a device purchased at comma.ai/shop, open a ticket at https://comma.ai/support."
+msgstr "Nem sikerült regisztrálni a comma.ai rendszerében. Az eszköz nem csatlakozik a comma.ai szervereihez, nem tölt fel adatot, és nem kap comma.ai támogatást. Ha a comma.ai/shop oldalon vásároltad, nyiss hibajegyet: https://comma.ai/support."
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Fan Malfunction"
+msgstr "Ventilátorhiba"
+
+#: openpilot/selfdrive/ui/widgets/setup.py
+msgid "Finish Setup"
+msgstr "Beállítás befejezése"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Finish Training"
+msgstr "Oktatás befejezése"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py
+msgid "Firehose"
+msgstr "Firehose"
+
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py
+#: openpilot/selfdrive/ui/widgets/setup.py
+msgid "Firehose Mode"
+msgstr "Firehose mód"
+
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py
+msgid ""
+"For maximum effectiveness, bring your device inside and connect to a good USB-C adapter and Wi-Fi weekly.\n"
+"\n"
+"Firehose Mode can also work while you're driving if connected to a hotspot or unlimited SIM card.\n"
+"\n"
+"\n"
+"Frequently Asked Questions\n"
+"\n"
+"Does it matter how or where I drive? Nope, just drive as you normally would.\n"
+"\n"
+"Do all of my segments get pulled in Firehose Mode? No, we selectively pull a subset of your segments.\n"
+"\n"
+"What's a good USB-C adapter? Any fast phone or laptop charger should be fine.\n"
+"\n"
+"Does it matter which software I run? Yes, only upstream openpilot (and particular forks) are able to be used for training."
+msgstr ""
+"A legjobb eredményhez hetente vidd be az eszközt, és csatlakoztasd megfelelő USB-C-töltőhöz és Wi-Fi-hálózathoz.\n"
+"\n"
+"A Firehose mód vezetés közben is működhet mobilhotspottal vagy korlátlan SIM-kártyával.\n"
+"\n"
+"\n"
+"Gyakori kérdések\n"
+"\n"
+"Számít, hogyan és merre vezetek? Nem, vezess a megszokott módon.\n"
+"\n"
+"Minden útszakaszomat letöltik Firehose módban? Nem, csak kiválasztott szakaszokat.\n"
+"\n"
+"Milyen USB-C-töltő megfelelő? Bármely gyorstöltésre alkalmas telefon- vagy laptoptöltő megfelelő lehet.\n"
+"\n"
+"Számít, milyen szoftvert használok? Igen, tanításhoz csak az eredeti openpilot és bizonyos forkok használhatók."
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "Force PreAP Tesla Model S"
+msgstr "PreAP Tesla Model S kényszerített kiválasztása"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Forget"
+msgstr "Elfelejtés"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Forget Wi-Fi Network \"{}\"?"
+msgstr "Elfelejted a(z) „{}” Wi-Fi-hálózatot?"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Fused sources"
+msgstr "Egyesített források"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "GOOD"
+msgstr "JÓ"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "GPS"
+msgstr "GPS"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Gas: {0}%, Steer: {1}%"
+msgstr "Gáz: {0}%, kormány: {1}%"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Gear not D"
+msgstr "A váltó nincs D-ben"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Generate Handoff Reports"
+msgstr "Átadási jelentések készítése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Generation, part and connector identity"
+msgstr "Generáció, cikkszám és csatlakozó azonosítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Gentle left turn"
+msgstr "Enyhe balra kanyarodás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Gentle right turn"
+msgstr "Enyhe jobbra kanyarodás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Gently press and release the accelerator during normal forward driving."
+msgstr "Szokásos előremenetben finoman nyomja meg, majd engedje fel a gázpedált."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Gently press and release the physical brake. Independently distinguish pedal movement from regeneration."
+msgstr "Finoman nyomja meg, majd engedje fel a fékpedált. A pedál mozgását függetlenül különítse el a visszatáplálástól."
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Getting Started"
+msgstr "Első lépések"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Git Export"
+msgstr "Git-export"
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py
+msgid "Go to https://connect.comma.ai on your phone"
+msgstr "Nyisd meg a https://connect.comma.ai oldalt a telefonodon"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Good visibility"
+msgstr "Jó láthatóság"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Ground continuity"
+msgstr "Testfolytonosság"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "HEAD: {head} / AGNOS: {agnos}"
+msgstr "HEAD: {head} / AGNOS: {agnos}"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "HIGH"
+msgstr "MAGAS"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Hardware and firmware identity"
+msgstr "Hardver- és firmware-azonosító"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Harness Relay Malfunction"
+msgstr "Kábelköteg-reléhiba"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Hazard switch"
+msgstr "Vészvillogó kapcsolója"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Head lowered"
+msgstr "Lehajtott fej"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Help improve driver monitoring by including your driving data in the training data set. Your preference can be changed at any time in Settings. Would you like to share your data?"
+msgstr "Vezetési adataid tanítóadatként történő megosztásával segítheted a vezetőfigyelés fejlesztését. Döntésedet bármikor módosíthatod a Beállításokban. Megosztod az adataidat?"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Hidden Network"
+msgstr "Rejtett hálózat"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "High beam"
+msgstr "Távolsági"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "High-beam perception only"
+msgstr "Csak távolságifény-észlelés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Hold the physical brake continuously. Select Drive without accelerating, then return to Park."
+msgstr "Tartsa folyamatosan nyomva a fékpedált. Válassza a D fokozatot gyorsítás nélkül, majd térjen vissza P állásba."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Hold the physical brake continuously. Select Neutral without rolling, then return to Park."
+msgstr "Tartsa folyamatosan nyomva a fékpedált. Válassza az N fokozatot elgurulás nélkül, majd térjen vissza P állásba."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Hold the physical brake continuously. Select Reverse without moving, then return to Park."
+msgstr "Tartsa folyamatosan nyomva a fékpedált. Válassza az R fokozatot elmozdulás nélkül, majd térjen vissza P állásba."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Home"
+msgstr "Kezdőlap"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Home and work locations"
+msgstr "Otthoni és munkahelyi helyszínek"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "How to change lanes with openpilot"
+msgstr "Sávváltás az openpilottal"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "How to disengage openpilot"
+msgstr "Az openpilot kikapcsolása"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "How to engage and control openpilot"
+msgstr "Az openpilot bekapcsolása és kezelése"
+
+#: openpilot/selfdrive/ui/mici/layouts/settings/firehose.py
+msgid "INACTIVE: connect to an unmetered network"
+msgstr "INAKTÍV: csatlakozz korlátlan hálózathoz"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "INSTALL"
+msgstr "TELEPÍTÉS"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "IP Address"
+msgstr "IP-cím"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Identity and patch provenance"
+msgstr "Azonosító és módosítás eredete"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "If safe, make a small ordinary set-speed change using the original stalk."
+msgstr "Ha biztonságos, a gyári karral módosítsa kis mértékben a beállított sebességet."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "If you are traveling above 30 mph, openpilot can perform a lane change. Keep in mind that it is not capable of checking if a lane change is safe. This is your job. Once initiated, openpilot will change lanes regardless if another vehicle is present."
+msgstr "30 mph (kb. 48 km/h) felett az openpilot képes sávváltásra. Nem tudja ellenőrizni, hogy a sávváltás biztonságos-e. Ez a te feladatod. Az elindított sávváltást akkor is végrehajtja, ha másik jármű van jelen."
+
+#: openpilot/system/ui/tici_setup.py
+msgid "If you'd like to proceed, use https://flash.comma.ai to restore your device to a factory state later."
+msgstr "Ha folytatod, később a https://flash.comma.ai oldalon állíthatod vissza az eszköz gyári állapotát."
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid "Immediately connect to the internet to check for updates. If you do not connect to the internet, openpilot won't engage in %1"
+msgstr "Azonnal csatlakozz az internethez a frissítések ellenőrzéséhez. Internetkapcsolat nélkül az openpilot ennyi idő múlva már nem kapcsolható be: %1"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Import Existing Replay Package"
+msgstr "Meglévő visszajátszási csomag importálása"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Improve Driver Monitoring"
+msgstr "A vezetőfigyelés fejlesztése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "In Park with parking brake set, operate only the selected opening. Record open, ajar and closed states."
+msgstr "P állásban, behúzott rögzítőfékkel csak a kijelölt ajtót vagy fedelet működtesse. Rögzítse a nyitott, résnyire nyitott és zárt állapotot."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "In Park, latch, unlatch and latch the driver belt. Finish with the belt latched."
+msgstr "P állásban csatolja be, ki, majd újra be a vezető övét. A teszt végén maradjon becsatolva."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "In Park, switch hazards on then off. Observe both lamps and the physical switch separately."
+msgstr "P állásban kapcsolja be, majd ki a vészvillogót. Mindkét lámpát és a fizikai kapcsolót külön figyelje meg."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "In Park, switch the left indicator on, observe its flashes, then cancel it."
+msgstr "P állásban kapcsolja be a bal irányjelzőt, figyelje meg a villogását, majd kapcsolja ki."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "In Park, switch the right indicator on, observe its flashes, then cancel it."
+msgstr "P állásban kapcsolja be a jobb irányjelzőt, figyelje meg a villogását, majd kapcsolja ki."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "In progress"
+msgstr "Folyamatban"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Independent ACK, error drive and forwarding measurement"
+msgstr "ACK, hibajeladás és továbbítás független mérése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Independent Ground Truth"
+msgstr "Független referenciaadatok"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Independent advisory warnings, with country-law notices and provider restrictions."
+msgstr "Önálló tájékoztató jelzések, országonkénti jogszabályi figyelmeztetésekkel és szolgáltatói korlátozásokkal."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Independent annotation author"
+msgstr "Független annotáció készítője"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Independent electrical qualification"
+msgstr "Független elektromos minősítés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Independent electrical silence"
+msgstr "Független elektromos adásmentesség-vizsgálat"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Independent instrument"
+msgstr "Független műszer"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Independent instrument and directional connection"
+msgstr "Független műszer és irányérzékeny bekötés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Independent observer log"
+msgstr "Független megfigyelő naplója"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Independent reviewer"
+msgstr "Független értékelő"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Independently attributed device-originated frames"
+msgstr "A készüléknek függetlenül tulajdonítható keretek száma"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Independently displayed cruise set speed"
+msgstr "Függetlenül leolvasott tempomatcélsebesség"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Independently observed actual speed"
+msgstr "Függetlenül megfigyelt tényleges sebesség"
+
+#: openpilot/system/ui/tici_updater.py
+msgid "Install"
+msgstr "Telepítés"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Install Update"
+msgstr "Frissítés telepítése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Instrument glance"
+msgstr "Műszerekre pillantás"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Intermediate reserve (5–30%)"
+msgstr "Köztes töltőnél elvárt tartalék (5–30%)"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Intermediate reserve: {soc:.0f}%"
+msgstr "Köztes tartalék: {soc:.0f}%"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Invalid EV planning input"
+msgstr "Érvénytelen EV-tervezési adat"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Invalid LKAS setting"
+msgstr "Hibás sávtartó-beállítás"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Invalid confidence"
+msgstr "Érvénytelen megbízhatóság"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Invalid expiry"
+msgstr "Érvénytelen lejárat"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Invalid number"
+msgstr "Érvénytelen szám"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Inventory and Settings"
+msgstr "Eszközleltár és beállítások"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Isolated bench"
+msgstr "Elkülönített próbapad"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "It has not been tested by comma."
+msgstr "A comma nem tesztelte."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "It is important to understand the functionality and limitations of the openpilot alpha software before testing."
+msgstr "A tesztelés előtt fontos megérteni az openpilot alfa szoftver működését és korlátait."
+
+#: openpilot/system/ui/tici_setup.py
+msgid "It may cause damage to your device and/or vehicle."
+msgstr "Kárt okozhat az eszközben és/vagy a járműben."
+
+#: openpilot/system/ui/tici_setup.py
+msgid "It may not comply with relevant safety standards."
+msgstr "Előfordulhat, hogy nem felel meg a vonatkozó biztonsági előírásoknak."
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "Joystick Debug Mode"
+msgstr "Joystick hibakeresési mód"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Joystick Mode"
+msgstr "Joystick mód"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Keep enabled"
+msgstr "Marad bekapcsolva"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Keep in mind that openpilot will not recognize certain scenarios including stop lights, close cut-ins, or pedestrians. You must stay alert and always be ready to retake control of the vehicle."
+msgstr "Az openpilot bizonyos helyzeteket nem ismer fel, például a piros lámpát, a közvetlenül eléd bevágó járművet vagy a gyalogosokat. Maradj éber, és mindig légy kész átvenni a jármű irányítását."
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Keep off"
+msgstr "Marad kikapcsolva"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "LIGHT REQUEST {state}: {reason}"
+msgstr "KÉRT FÉNY: {state}; {reason}"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "LIMIT UNKNOWN: {reason}"
+msgstr "ISMERETLEN HATÁR: {reason}"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "LIMIT {limit:.0f} {unit}  {source}"
+msgstr "HATÁR: {limit:.0f} {unit}  {source}"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "LKAS Fault: Restart the Car"
+msgstr "Sávtartóhiba: Indítsd újra az autót"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "LKAS Fault: Restart the car to engage"
+msgstr "Sávtartóhiba: A bekapcsoláshoz indítsd újra az autót"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py
+msgid "LOADING"
+msgstr "BETÖLTÉS"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "LTE"
+msgstr "LTE"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Lane Departure Detected"
+msgstr "Sávelhagyás észlelve"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "Lateral Maneuver Mode"
+msgstr "Oldalirányú manőverezési mód"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Lead Car Indicator"
+msgstr "Az elöl haladó jármű jelzése"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Learned model reset"
+msgstr "A tanult modell törölve"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Left indicator"
+msgstr "Bal oldali irányjelző"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Left window"
+msgstr "Bal ablak"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Let’s review. openpilot can:"
+msgstr "Ismétlés: az openpilot képes"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "License plates"
+msgstr "Rendszámtáblák"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Limited Features"
+msgstr "Korlátozott képességek"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Live charger availability: no provider configured"
+msgstr "Élő töltőállapot: nincs beállított szolgáltató"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Load saved EV route"
+msgstr "Mentett EV-útvonal betöltése"
+
+#: openpilot/system/ui/tici_updater.py
+msgid "Loading..."
+msgstr "Betöltés..."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Location coordinates"
+msgstr "Helykoordináták"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Logging availability"
+msgstr "Naplózás elérhetősége"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "Longitudinal Maneuver Mode"
+msgstr "Hosszirányú manőverezési mód"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Look forward"
+msgstr "Előretekintés"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Low Communication Rate Between Processes"
+msgstr "Lassú kommunikáció a folyamatok között"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Low Memory"
+msgstr "Kevés szabad memória"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Low Memory: Reboot Your Device"
+msgstr "Kevés memória: Indítsd újra az eszközt"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Low beam"
+msgstr "Tompított fény"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Low confidence"
+msgstr "Alacsony megbízhatóság"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Low speed"
+msgstr "Alacsony sebesség"
+
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py
+msgid "MAX"
+msgstr "MAX"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "MOBILE CAMERA ZONE"
+msgstr "MOBIL SEBESSÉGMÉRÉSI ZÓNA"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Make a normal gentle left turn and return the steering wheel. Keep hands on the wheel."
+msgstr "Végezzen szokásos, enyhe balra kanyarodást, majd egyenesítse ki a kormányt. Keze maradjon a kormányon."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Make a normal gentle right turn and return the steering wheel. Keep hands on the wheel."
+msgstr "Végezzen szokásos, enyhe jobbra kanyarodást, majd egyenesítse ki a kormányt. Keze maradjon a kormányon."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Manager, card and pandad restart observation"
+msgstr "Manager, card és pandad újraindulásának megfigyelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Manual high beam"
+msgstr "Kézi távolsági fény"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Manual override"
+msgstr "Kézi felülbírálás"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Map"
+msgstr "Térkép"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Map and effective speed limit"
+msgstr "Térképi és összesített sebességhatár"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Mark action onset"
+msgstr "Működtetés kezdetének jelölése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Mark action release"
+msgstr "Működtetés végének jelölése"
+
+#: openpilot/selfdrive/ui/widgets/setup.py
+msgid "Maximize your training data uploads to improve openpilot's driving models."
+msgstr "Több tanítóadat feltöltésével segítheted az openpilot vezetési modelljeinek fejlesztését."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Measured bitrate"
+msgstr "Mért bitsebesség"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Minimal visibility"
+msgstr "Minimális láthatóság"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Model uncertain at this speed"
+msgstr "A modell bizonytalan ennél a sebességnél"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Moving tests use audio guidance. Answer questions only after parking. Cruise is a separate subsession."
+msgstr "A mozgó teszteket hangutasítás vezeti. Kérdésekre csak parkolás után válaszoljon. A tempomat külön tesztmenet."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "N/A"
+msgstr "N/A"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "NEXT {limit:.0f} {unit} / {distance:.0f} m"
+msgstr "KÖVETKEZŐ: {limit:.0f} {unit} / {distance:.0f} m"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "NO"
+msgstr "NINCS"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Narrow road camera"
+msgstr "Keskeny látószögű útkamera"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Natural double flash timing"
+msgstr "Természetes kettős fénykürt időzítése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Naturally occurring steady speeds"
+msgstr "Természetesen adódó egyenletes sebességek"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Navigation"
+msgstr "Navigáció"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Navigation availability"
+msgstr "Navigáció elérhetősége"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Navigation glance"
+msgstr "Navigációra pillantás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Needs review"
+msgstr "Értékelés szükséges"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py
+msgid "Network"
+msgstr "Hálózat"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Neutral, stationary"
+msgstr "N fokozat, álló helyzetben"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Next"
+msgstr "Következő"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "No"
+msgstr "Nem"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "No EV trip plan"
+msgstr "Nincs EV-útiterv"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py
+msgid "No SSH keys found for user '{}'"
+msgstr "Nem található SSH-kulcs ehhez a felhasználóhoz: „{}”"
+
+#: openpilot/selfdrive/ui/onroad/driver_assist.py
+msgid "No automatic stop available. Take control."
+msgstr "Nincs automatikus megállás. Vegye át az irányítást."
+
+#: openpilot/system/ui/tici_setup.py
+msgid "No custom software found at this URL."
+msgstr "Ezen az URL-en nem található egyéni szoftver."
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "No feasible EV route; review reserves, profile and charger policy"
+msgstr "Nincs teljesíthető EV-útvonal; ellenőrizze a tartalékot, profilt és töltőválasztást"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "No map"
+msgstr "Nincs térkép"
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py
+msgid "No release notes available."
+msgstr "Nincs elérhető kiadási megjegyzés."
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "No source"
+msgstr "Nincs forrás"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "None"
+msgstr "Nincs"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Normal attention and glances"
+msgstr "Normál figyelem és oldalra pillantások"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Normal blink and prolonged closure"
+msgstr "Normál pislogás és hosszas szemlezárás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Normal blinking"
+msgstr "Normál pislogás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Not applicable"
+msgstr "Nem alkalmazható"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Not authorized"
+msgstr "Nincs engedélyezve"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Not captured"
+msgstr "Nincs rögzítve"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Not installed"
+msgstr "Nincs beszerelve"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Not run"
+msgstr "Még nem futott"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Not visible"
+msgstr "Nem látható"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "OFFLINE"
+msgstr "OFFLINE"
+
+#: openpilot/system/ui/widgets/confirm_dialog.py
+#: openpilot/system/ui/widgets/html_render.py
+msgid "OK"
+msgstr "OK"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "ONLINE"
+msgstr "ONLINE"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Observe naturally encountered signs and road events during normal legal driving. Passenger marks events; otherwise annotate after parking."
+msgstr "Szabályos vezetés közben figyelje a természetesen előforduló táblákat és úteseményeket. Az utas jelölhet; egyébként parkolás után annotáljon."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Observe the final state. Stop the test if conditions are unsafe."
+msgstr "Figyelje meg a végállapotot. Veszélyes körülmények esetén szakítsa meg a tesztet."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Observe the initial state. Do not act yet."
+msgstr "Figyelje meg a kezdeti állapotot. Még ne hajtsa végre a feladatot."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Observed event"
+msgstr "Megfigyelt esemény"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Off"
+msgstr "Kikapcsolva"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Offline context prototype. Requires installed map data; camera results are unqualified."
+msgstr "Offline környezeti prototípus. Telepített térképadat kell hozzá; a kameraeredmények még nem minősítettek."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "On an isolated bench, document this gate using the approved physical test procedure and independent evidence. The wizard does not operate hardware."
+msgstr "Elkülönített próbapadon, a jóváhagyott eljárással dokumentálja a feltételt. Független bizonyíték szükséges. A varázsló nem működtet hardvert."
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Oncoming vehicle"
+msgstr "Szemből jövő jármű"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Only if normal cruise conditions are safe, engage using the original controls."
+msgstr "Csak biztonságos, szokásos tempomathasználati körülmények között kapcsolja be a gyári kezelőszervekkel."
+
+#: openpilot/selfdrive/ui/widgets/setup.py
+msgid "Open"
+msgstr "Megnyitás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Operation blocked; review details"
+msgstr "Művelet blokkolva; ellenőrizze a részleteket"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Operator"
+msgstr "Kezelő"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Ordinary climb and descent"
+msgstr "Szokásos emelkedő és lejtő"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Ordinary mixed driving energy"
+msgstr "Vegyes közlekedés energiaadatai"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Ordinary motorway energy"
+msgstr "Normál autópályás energiafogyasztás"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Out of Storage"
+msgstr "Megtelt a tárhely"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "PAIR"
+msgstr "PÁROSÍTÁS"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "PANDA"
+msgstr "PANDA"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "PRE-AP Validation"
+msgstr "PRE-AP ellenőrzés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "PRE-AP commissioning incomplete — vehicle control disabled"
+msgstr "A PRE-AP üzembe helyezése nem teljes — járművezérlés kikapcsolva"
+
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py
+msgid "PRE-AP commissioning — vehicle control disabled"
+msgstr "PRE-AP üzembe helyezés — járművezérlés kikapcsolva"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "PREVIEW"
+msgstr "ELŐNÉZET"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "PRE_AP 3X R0 — COMMISSIONING"
+msgstr "PRE_AP 3X R0 — ÜZEMBE HELYEZÉS"
+
+#: openpilot/selfdrive/ui/widgets/prime.py
+msgid "PRIME FEATURES:"
+msgstr "PRIME SZOLGÁLTATÁSOK:"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "PROFILE MODEL — vehicle validation pending"
+msgstr "PROFILMODELL — járműves ellenőrzésre vár"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Pair Device"
+msgstr "Eszköz párosítása"
+
+#: openpilot/selfdrive/ui/widgets/setup.py
+msgid "Pair device"
+msgstr "Eszköz párosítása"
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py
+msgid "Pair your device to your comma account"
+msgstr "Párosítsd az eszközt a comma-fiókoddal"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+#: openpilot/selfdrive/ui/widgets/setup.py
+msgid "Pair your device with comma connect (connect.comma.ai) and claim your comma prime offer."
+msgstr "Párosítsd az eszközt a comma connect szolgáltatással (connect.comma.ai), és igényeld a comma prime ajánlatot."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Panda reset and reconnect observation"
+msgstr "Panda újraindulásának és újracsatlakozásának megfigyelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Park"
+msgstr "P fokozat"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Park before editing the EV trip"
+msgstr "Az EV-útiterv szerkesztése előtt parkoljon le"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Park safely. Perform only the named observation while stationary. Never induce distraction or drowsiness while driving."
+msgstr "Parkoljon biztonságosan. Csak álló helyzetben végezze a megnevezett megfigyelést. Vezetés közben tilos álmosságot vagy zavart előidézni."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Park selected"
+msgstr "P fokozat kiválasztva"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Park, exit and lock normally. Move the key away and observe passively without further interaction."
+msgstr "Parkoljon le, szálljon ki és zárja be az autót. Vigye távolabb a kulcsot, és további beavatkozás nélkül figyeljen."
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Parking Brake Engaged"
+msgstr "A rögzítőfék be van kapcsolva"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Parking brake applied"
+msgstr "Rögzítőfék behúzva"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Part number and firmware"
+msgstr "Cikkszám és firmware"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Partial visibility"
+msgstr "Részleges láthatóság"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Passed"
+msgstr "Sikeres"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Passenger"
+msgstr "Utas"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Passenger event marker"
+msgstr "Utas eseményjelölése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Passenger glance"
+msgstr "Utasra pillantás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Passenger operator"
+msgstr "Utas mint kezelő"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Passive CAN"
+msgstr "Passzív CAN"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Passive DC charging session"
+msgstr "DC-töltés passzív megfigyelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Passive status and fault states"
+msgstr "Passzív állapot és hibaállapotok"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Passive status, faults and track freshness"
+msgstr "Passzív állapot, hibák és célpontadatok frissessége"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Passive steering status"
+msgstr "Passzív kormányállapot"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Pause"
+msgstr "Szünet"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Pay Attention"
+msgstr "Figyelj az útra"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Pay Attention to Engage"
+msgstr "A bekapcsoláshoz figyelj az útra"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Pedal Pressed"
+msgstr "Lenyomott pedál"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Perform Lane Change"
+msgstr "Sávváltás végrehajtása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Personal names"
+msgstr "Személynevek"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Phone detection"
+msgstr "Telefon észlelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Phone visible"
+msgstr "Látható telefon"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Physical CAN mapping"
+msgstr "Fizikai CAN-kiosztás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Physical accelerator"
+msgstr "Fizikai gázpedál"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Physical brake"
+msgstr "Fizikai fékpedál"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Physical brake held"
+msgstr "Fizikai fék nyomva tartva"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Physical driver response"
+msgstr "Fizikai vezetői reakció"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Physical passthrough evidence"
+msgstr "Fizikai átengedés bizonyítékai"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Pin charging stops for this trip"
+msgstr "Töltőmegállók rögzítése erre az útra"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Pin {station}"
+msgstr "{station} rögzítése"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Plan confidence is low; review profile and data freshness"
+msgstr "A terv megbízhatósága alacsony; ellenőrizze a profilt és az adatok frissességét"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Plan confidence is medium; vehicle validation pending"
+msgstr "A terv megbízhatósága közepes; járműves ellenőrzésre vár"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Planning speed only (km/h)"
+msgstr "Csak tervezési sebesség (km/h)"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Planning speed; does not change cruise"
+msgstr "Tervezési sebesség; a tempomatot nem módosítja"
+
+#: openpilot/selfdrive/ui/widgets/setup.py
+msgid "Please connect to Wi-Fi to complete initial pairing"
+msgstr "Az első párosításhoz csatlakozz Wi-Fi-hálózathoz"
+
+#: openpilot/selfdrive/ui/onroad/driver_assist.py
+msgid "Please look at the road and respond"
+msgstr "Nézzen az útra és reagáljon"
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid "Poor visibility detected for driver monitoring. Ensure the device has a clear view of the driver. This can be checked in the device settings. Extreme lighting conditions and/or unconventional mounting positions may also trigger this alert."
+msgstr "A vezetőfigyelés rosszul látja a vezetőt. Biztosíts szabad rálátást; ezt az eszközbeállításoknál ellenőrizheted. Szélsőséges fényviszonyok és szokatlan rögzítési helyzet is kiválthatja ezt a jelzést."
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Posenet Speed Invalid"
+msgstr "Érvénytelen Posenet-sebesség"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Positive offset for the optional speed policy."
+msgstr "Pozitív sebességeltolás az opcionális szabályozáshoz."
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Posted limit"
+msgstr "Táblázott határ"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+#: openpilot/system/ui/tici_setup.py
+msgid "Power Off"
+msgstr "Kikapcsolás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Power and CAN inspection"
+msgstr "Tápellátás és CAN ellenőrzése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Power and CAN topology"
+msgstr "Tápellátás és CAN-topológia"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Power loss observation"
+msgstr "Tápvesztés megfigyelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Power measurement"
+msgstr "Tápellátás mérése"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Power your device in a car with a harness or proceed at your own risk."
+msgstr "Az eszközt autóban, kábelkötegen keresztül tápláld, vagy saját felelősségre folytasd."
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Prefer Tesla Supercharger"
+msgstr "Tesla Supercharger előnyben"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Prepare Reviewed Package"
+msgstr "Áttekintett csomag előkészítése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Prerequisites and Channels"
+msgstr "Előfeltételek és csatornák"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Press Resume"
+msgstr "Nyomd meg a Resume gombot"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Press Resume to Exit Brake Hold"
+msgstr "A féktartásból kilépéshez nyomd meg a Resume gombot"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Press Resume to Exit Standstill"
+msgstr "Elinduláshoz nyomd meg a Resume gombot"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Press Set to Engage"
+msgstr "Bekapcsoláshoz nyomd meg a Set gombot"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Prevent large data uploads when on a metered Wi-Fi connection"
+msgstr "Nagy adatfeltöltések tiltása korlátos Wi-Fi használatakor"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Prevent large data uploads when on a metered cellular connection"
+msgstr "Nagy adatfeltöltések tiltása korlátos mobilinternet használatakor"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Preview Git Push"
+msgstr "Git-feltöltés előnézete"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Preview Package and Commit"
+msgstr "Csomag és commit előnézete"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Preview the cabin camera to ensure that driver monitoring has good visibility. (vehicle must be off)"
+msgstr "Ellenőrizd a belső kamera képén, hogy a vezetőfigyelés jól látja-e a vezetőt. (A jármű legyen kikapcsolva.)"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Previous"
+msgstr "Előző"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Privacy and Export"
+msgstr "Adatvédelem és export"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Privacy notes"
+msgstr "Adatvédelmi megjegyzések"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Privacy review notes"
+msgstr "Adatvédelmi értékelés megjegyzései"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Privacy reviewer"
+msgstr "Adatvédelmi értékelő"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Private CAN payload data"
+msgstr "Személyes CAN-adattartalom"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Private evidence file path"
+msgstr "Privát bizonyítékfájl elérési útja"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Private file reference"
+msgstr "Privát fájlhivatkozás"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Process Not Running"
+msgstr "Egy folyamat nem fut"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Prolonged eye closure"
+msgstr "Hosszas szemlezárás"
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py
+msgid "QR Code Error"
+msgstr "QR-kódhiba"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "RED LIGHT / SPEED CAMERA"
+msgstr "PIROSLÁMPA- ÉS SEBESSÉGMÉRŐ"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "RED LIGHT CAMERA"
+msgstr "PIROSLÁMPA-KAMERA"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py
+msgid "REMOVE"
+msgstr "TÖRLÉS"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "RESET"
+msgstr "TÖRLÉS"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "REVIEW"
+msgstr "ÁTTEKINTÉS"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "ROAD CONTEXT UNAVAILABLE"
+msgstr "AZ ÚTKÖRNYEZET NEM ÉRHETŐ EL"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Radar Error: Restart the Car"
+msgstr "Radarhiba: Indítsd újra az autót"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Radar Temporarily Unavailable"
+msgstr "A radar átmenetileg nem érhető el"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Raw receive fidelity"
+msgstr "Nyers vételi adatok hűsége"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Ready"
+msgstr "Készen áll"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Rear cabin"
+msgstr "Hátsó utastér"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+#: openpilot/system/ui/tici_reset.py
+#: openpilot/system/ui/tici_updater.py
+msgid "Reboot"
+msgstr "Újraindítás"
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py
+msgid "Reboot Device"
+msgstr "Indítsd újra az eszközt"
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py
+msgid "Reboot and Update"
+msgstr "Újraindítás és frissítés"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Reboot device"
+msgstr "Eszköz újraindítása"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Reboot your Device"
+msgstr "Indítsd újra az eszközt"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Recalibrating"
+msgstr "Újrakalibrálás"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Receive alerts to steer back into the lane when your vehicle drifts over a detected lane line without a turn signal activated while driving over 31 mph (50 km/h)."
+msgstr "Jelzés a sávba visszatéréshez, ha 50 km/h (31 mph) felett irányjelzés nélkül átlépsz egy észlelt sávvonalat."
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "Receive-only commissioning. Disconnect vehicle CAN before changing this setting and cold reboot before reconnecting. No vehicle controls or decoded vehicle state are available. Turning this OFF keeps the receive-only lock; explicit disconnected rollback is required."
+msgstr "Csak vételi üzemű beüzemelés. A beállítás módosítása előtt válaszd le a jármű CAN-kapcsolatát, majd az újracsatlakoztatás előtt teljesen áramtalanítsd és indítsd újra az eszközt. Járművezérlés és dekódolt járműállapot nem érhető el. A kikapcsolás nem oldja fel a csak vételi zárolást; leválasztott állapotban külön visszaállítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Record and Upload Cabin Camera"
+msgstr "Belső kamera rögzítése és feltöltése"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Record and Upload Microphone Audio"
+msgstr "Mikrofonhang rögzítése és feltöltése"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Record and store microphone audio while driving. The audio will be included in the dashcam video in comma connect."
+msgstr "Mikrofonhang rögzítése vezetés közben. A hang a comma connect fedélzeti kameravideójába is bekerül."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Record independent observations, timing uncertainty and evidence references."
+msgstr "Rögzítse a független megfigyeléseket, az időzítés bizonytalanságát és a bizonyítékok hivatkozásait."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Record measured pull/release intervals and uncertainty; no target timing is prescribed."
+msgstr "Rögzítse a mért húzási és elengedési időközöket, valamint bizonytalanságukat; nincs előírt célidő."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Record ordinary legal driving only. Do not target a speed for this test. Review observations after parking; never interact while driving."
+msgstr "Csak szabályos, szokásos vezetést rögzítsen. Ne törekedjen tesztsebességre. Parkolás után értékeljen; vezetés közben ne kezelje a felületet."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Regeneration observation"
+msgstr "Visszatáplálás megfigyelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Regulatory"
+msgstr "Hatósági adatok"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Reject Evidence"
+msgstr "Bizonyíték elutasítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Relaxed"
+msgstr "Nyugodt"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Relaxed attention"
+msgstr "Megengedő"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Relaxed retains perception and drowsiness monitoring; ordinary distraction remains visible with a first-stage warning."
+msgstr "A megengedő mód megtartja az észlelést és az álmosságfigyelést; a figyelemelterelés első szintű figyelmeztetést ad."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Relay behavior"
+msgstr "Relé működése"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Release Brake to Engage"
+msgstr "Bekapcsoláshoz engedd fel a féket"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Release identity unavailable — commissioning only"
+msgstr "A kiadás azonosítója nem érhető el — csak üzembe helyezés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Remain in Park with parking brake set. Do not move pedals or steering."
+msgstr "Maradjon P állásban, behúzott rögzítőfékkel. Ne mozgassa a pedálokat vagy a kormányt."
+
+#: openpilot/selfdrive/ui/widgets/prime.py
+msgid "Remote access"
+msgstr "Távoli elérés"
+
+#: openpilot/selfdrive/ui/widgets/prime.py
+msgid "Remote snapshots"
+msgstr "Távoli pillanatképek"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Remount Detected: Recalibrating"
+msgstr "Rögzítésváltozás: Újrakalibrálás"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Remount Device (Pitch: {0}°, Yaw: {1}°)"
+msgstr "Szereld át az eszközt (dőlés: {0}°, elfordulás: {1}°)"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Remove CAN identifiers"
+msgstr "CAN-azonosítók eltávolítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Remove time interval"
+msgstr "Időtartomány eltávolítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Repeated eye closure"
+msgstr "Ismételt szemlezárás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Repeated passive DC sessions"
+msgstr "Ismételt DC-töltések passzív megfigyelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Replay directory"
+msgstr "Visszajátszás könyvtára"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py
+msgid "Request timed out"
+msgstr "A kérés túllépte az időkorlátot"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Required Evidence"
+msgstr "Szükséges bizonyítékok"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Requires AUTO mode and qualified inputs. Unavailable during PRE_AP commissioning."
+msgstr "Automatikus mód és minősített bemenetek szükségesek. PRE_AP beüzemelés közben nem érhető el."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Reset"
+msgstr "Visszaállítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Reset Calibration"
+msgstr "Kalibrálás törlése"
+
+#: openpilot/system/ui/tici_reset.py
+msgid "Reset failed. Reboot to try again."
+msgstr "Sikertelen visszaállítás. Újraindítás után próbáld újra."
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Reset learned charging model"
+msgstr "Tanult töltési modell törlése"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Reset learned energy model"
+msgstr "Tanult energiamodell törlése"
+
+#: openpilot/system/ui/tici_reset.py
+msgid ""
+"Resetting device...\n"
+"This may take up to a minute."
+msgstr ""
+"Eszköz visszaállítása...\n"
+"Ez akár egy percig is eltarthat."
+
+#: openpilot/selfdrive/ui/onroad/driver_assist.py
+msgid "Respond and take control"
+msgstr "Reagáljon és vegye át az irányítást"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Restart"
+msgstr "Újrakezdés"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid ""
+"Restart the car to retry,\n"
+"now driving on small model"
+msgstr ""
+"Az újrapróbáláshoz indítsd újra az autót,\n"
+"most a kis modell működik"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Restriction ended; new context needed"
+msgstr "Korlátozás vége; új környezet szükséges"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Results and Evidence"
+msgstr "Eredmények és bizonyítékok"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Resume"
+msgstr "Folytatás"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Resume Driving Manually"
+msgstr "Folytasd kézi vezetéssel"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Retake Control of The Vehicle"
+msgstr "Vedd át a vezetést"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Reverse"
+msgstr "Hátramenet"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid ""
+"Reverse\n"
+"Gear"
+msgstr ""
+"Hátrameneti\n"
+"fokozat"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Reverse Gear"
+msgstr "Hátramenet"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Reverse, stationary"
+msgstr "R fokozat, álló helyzetben"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Review Result"
+msgstr "Eredmény értékelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Review Training Guide"
+msgstr "Útmutató áttekintése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Review all privacy categories. Raw originals remain private."
+msgstr "Tekintsen át minden adatvédelmi kategóriát. A nyers eredetik privátak maradnak."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Review the complete stationary evidence and independently confirm no unexpected electrical or vehicle behavior before moving tests."
+msgstr "A mozgó tesztek előtt értékelje az állóhelyzeti bizonyítékokat, és függetlenül ellenőrizze a váratlan elektromos vagy járműviselkedés hiányát."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Review the rules, features, and limitations of openpilot"
+msgstr "Az openpilot szabályainak, funkcióinak és korlátainak áttekintése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Right indicator"
+msgstr "Jobb oldali irányjelző"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Right window"
+msgstr "Jobb ablak"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Risk of Collision"
+msgstr "Ütközésveszély"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Road Context Preview"
+msgstr "Útkörnyezeti előnézet"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Road and direction matching"
+msgstr "Út- és irányillesztés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Rod position, physical brake and mechanical fallback evidence"
+msgstr "Rúdhelyzet, fizikai fék és mechanikus tartalék működésének bizonyítékai"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "SELECT"
+msgstr "KIVÁLASZTÁS"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "SIMULATION — not vehicle evidence"
+msgstr "SZIMULÁCIÓ — nem járműbizonyíték"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "SPEED CAMERA"
+msgstr "SEBESSÉGMÉRŐ KAMERA"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "SSH Keys"
+msgstr "SSH-kulcsok"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Safe test area"
+msgstr "Biztonságos tesztterület"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Saved EV route file"
+msgstr "Mentett EV-útvonalfájl"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Scanning Wi-Fi networks..."
+msgstr "Wi-Fi-hálózatok keresése..."
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Scroll to continue"
+msgstr "A folytatáshoz görgess"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Seatbelt Unlatched"
+msgstr "Nincs bekötve a biztonsági öv"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Security Key Not Available"
+msgstr "Nincs biztonsági kulcs"
+
+#: openpilot/system/ui/widgets/option_dialog.py
+msgid "Select"
+msgstr "Kiválasztás"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Select a branch"
+msgstr "Ág kiválasztása"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Select a language"
+msgstr "Nyelv kiválasztása"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Selfdrive Process Lagging: Reboot Your Device"
+msgstr "A Selfdrive folyamat késik: Indítsd újra az eszközt"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Sensor Data Invalid"
+msgstr "Érvénytelen érzékelőadatok"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Separate opt-in for qualified speed policy. Default off."
+msgstr "A minősített sebességszabályozás külön engedélyezése. Alapértelmezés szerint kikapcsolva."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "Serial"
+msgstr "Sorozatszám"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Session Plan"
+msgstr "Tesztmenet terve"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Short left glance"
+msgstr "Rövid balra pillantás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Short right glance"
+msgstr "Rövid jobbra pillantás"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Show EV plan while driving"
+msgstr "EV-útiterv megjelenítése vezetés közben"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Shutdown and sleep"
+msgstr "Leállítás és alvó állapot"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Shutdown observation"
+msgstr "Leállítás megfigyelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Single flash-to-pass"
+msgstr "Egyszeri fénykürt"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Sleep and standby current"
+msgstr "Alvó és készenléti áramfelvétel"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Slow down to engage"
+msgstr "A bekapcsoláshoz lassíts"
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py
+msgid "Snooze Update"
+msgstr "Frissítés elhalasztása"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py
+msgid "Software"
+msgstr "Szoftver"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Software observations"
+msgstr "Szoftveres megfigyelések"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Software, AGNOS and asset hashes"
+msgstr "Szoftver-, AGNOS- és állományazonosítók"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Speed Camera Warnings"
+msgstr "Sebességmérő kamerák jelzése"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Speed Error: {0} m/s"
+msgstr "Sebességhiba: {0} m/s"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Speed Limit Offset (km/h)"
+msgstr "Eltolás (km/h)"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Speed Limit Policy"
+msgstr "Sebességhatár-követés"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Speed Too High"
+msgstr "Túl nagy sebesség"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Speed too low"
+msgstr "Túl alacsony sebesség"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Stale data"
+msgstr "Elavult adat"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Standard"
+msgstr "Normál"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Standard is recommended. In aggressive mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button."
+msgstr "A normál mód ajánlott. Dinamikus módban az openpilot kisebb követési távolságot tart, és erőteljesebben gyorsít, illetve fékez. Nyugodt módban nagyobb távolságot tart az elöl haladó járműtől. Támogatott autóknál a kormány követésitávolság-gombjával válthatsz a stílusok között."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Start Capture"
+msgstr "Rögzítés indítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Start and end monotonic nanoseconds, separated by a space"
+msgstr "Kezdő és záró monoton nanoszekundum szóközzel elválasztva"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Start isolated simulation"
+msgstr "Elkülönített szimuláció indítása"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Start over"
+msgstr "Újrakezdés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Start recorded validation"
+msgstr "Valós bizonyítékgyűjtés indítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Startup / wake"
+msgstr "Indítás / ébredés"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Stationary battery state"
+msgstr "Állóhelyzeti akkumulátorállapot"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Stationary evidence engineering review"
+msgstr "Állóhelyzeti bizonyítékok mérnöki értékelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Stationary observation"
+msgstr "Álló jármű megfigyelése"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Steer Assist Unavailable Below {0}"
+msgstr "Kormányzási segítség nem érhető el {0} alatt"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Steer Left"
+msgstr "Kormányozz balra"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Steer Left to Start Lane Change Once Safe"
+msgstr "Ha biztonságos, kormányozz balra a sávváltáshoz"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Steer Right"
+msgstr "Kormányozz jobbra"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Steer Right to Start Lane Change Once Safe"
+msgstr "Ha biztonságos, kormányozz jobbra a sávváltáshoz"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Steer ratio mismatch"
+msgstr "Eltérő kormányáttétel"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Steering Assist Temporarily Unavailable"
+msgstr "A kormányzási segítség átmenetileg nem érhető el"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Steering Pressed"
+msgstr "Kormánybeavatkozás"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Steering Temporarily Unavailable"
+msgstr "A kormányzás átmenetileg nem érhető el"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Steering misalignment detected"
+msgstr "Kormányzási eltérés észlelve"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "Steering rack geometry may be off (Ratio: {0})"
+msgstr "Eltérő kormánymű-geometria (áttétel: {0})"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Stock AEB: Risk of Collision"
+msgstr "Gyári AEB: Ütközésveszély"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Stock LKAS: Lane Departure Detected"
+msgstr "Gyári sávtartó: Sávelhagyás észlelve"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Stock cruise cancel"
+msgstr "Gyári tempomat kikapcsolása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Stock cruise enable"
+msgstr "Gyári tempomat bekapcsolása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Stock cruise speed change"
+msgstr "Gyári tempomat sebességváltoztatása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Straight driving"
+msgstr "Egyenes haladás"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Street lighting"
+msgstr "Közvilágítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Suggested planning speed: {speed:.0f} km/h | arrival: {soc:.0f}%"
+msgstr "Javasolt tervezési sebesség: {speed:.0f} km/h | érkezés: {soc:.0f}%"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Switch to Traffic-Aware Cruise Control to engage"
+msgstr "Bekapcsoláshoz válts követő tempomatra"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Switch to isolated simulation"
+msgstr "Váltás elkülönített szimulációra"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Switch to recorded validation"
+msgstr "Váltás valós bizonyítékgyűjtésre"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "System Initializing"
+msgstr "Rendszerindítás"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "System Lagging"
+msgstr "A rendszer késik"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "System Overheated"
+msgstr "A rendszer túlmelegedett"
+
+#: openpilot/system/ui/tici_reset.py
+msgid "System Reset"
+msgstr "Rendszer visszaállítása"
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py
+msgid "System Unresponsive"
+msgstr "A rendszer nem válaszol"
+
+#: openpilot/system/ui/tici_updater.py
+msgid "System Update"
+msgstr "Rendszerfrissítés"
+
+#: openpilot/system/ui/tici_reset.py
+msgid "System reset triggered. Press confirm to erase all content and settings. Press cancel to resume boot."
+msgstr "Rendszer-visszaállítás indult. A megerősítés minden adatot és beállítást töröl. A Mégse gombbal folytathatod az indítást."
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "TAKE CONTROL"
+msgstr "VEDD ÁT A VEZETÉST"
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py
+msgid "TAKE CONTROL IMMEDIATELY"
+msgstr "AZONNAL VEDD ÁT A VEZETÉST"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "TEMP"
+msgstr "HŐFOK"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Take Control"
+msgstr "Vedd át a vezetést"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Tap the alert to continue"
+msgstr "A folytatáshoz érintsd meg a figyelmeztetést"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Tap the brake pedal to continue"
+msgstr "A folytatáshoz érintsd meg a fékpedált"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Tap the driver to continue"
+msgstr "A folytatáshoz érintsd meg a vezetőt"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Tap the driving path to continue"
+msgstr "A folytatáshoz érintsd meg a nyomvonalat"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Tap the lead car indicator"
+msgstr "Érintsd meg az elöl haladó jármű jelzését"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Tap the light to continue"
+msgstr "A folytatáshoz érintsd meg a jelzőlámpát"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Tap the max speed to continue"
+msgstr "A folytatáshoz érintsd meg a maximális sebességet"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Tap the steering wheel to continue"
+msgstr "A folytatáshoz érintsd meg a kormányt"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Tap “SET” in the image to continue"
+msgstr "A folytatáshoz érintsd meg a képen a SET gombot"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Target Branch"
+msgstr "Célág"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Temporary"
+msgstr "Ideiglenes"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Termination measurement"
+msgstr "Lezárás mérése"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Tesla Supercharger only"
+msgstr "Csak Tesla Supercharger"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Tethering Password"
+msgstr "Megosztási jelszó"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "The Driving Path"
+msgstr "A tervezett nyomvonal"
+
+#: openpilot/system/ui/tici_updater.py
+msgid "The download size is approximately 1GB."
+msgstr "A letöltés mérete körülbelül 1 GB."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "The lead car indicator is displayed as a triangle under the lead car. openpilot can detect 2 cars simultaneously. The second triangle will appear when a cut-in is detected. If no triangle is present, your car may be using its stock ACC system, and some openpilot features may not be available."
+msgstr "Az elöl haladó autót alatta háromszög jelzi. Az openpilot egyszerre 2 autót észlelhet; bevágáskor megjelenik a második jel. Ha nincs háromszög, lehet, hogy a gyári ACC működik, és egyes openpilot-funkciók nem érhetők el."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Thermal observation"
+msgstr "Hőmérséklet megfigyelése"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "This guide can be replayed at any time from the device settings. To read more about openpilot, read the wiki and join the community at discord.comma.ai."
+msgstr "Az útmutatót az eszközbeállításokból bármikor újra megnyithatod. További információt a wikiben találsz; a közösséghez a discord.comma.ai oldalon csatlakozhatsz."
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "This trip: charger reserve {intermediate:.0f}% / destination {destination:.0f}%"
+msgstr "Ezen az úton: köztes tartalék {intermediate:.0f}% / célállomás {destination:.0f}%"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Timeout, disconnect and fault evidence"
+msgstr "Időtúllépés, lecsatlakozás és hibák bizonyítékai"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Toggle stock LKAS on or off to engage"
+msgstr "Bekapcsoláshoz váltsd át a gyári sávtartót"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py
+msgid "Toggles"
+msgstr "Funkciók"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Too Distracted"
+msgstr "Túl sok figyelmetlenség"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Too bright"
+msgstr "Túl világos"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Touch Steering Wheel"
+msgstr "Érintsd meg a kormányt"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Touch Steering Wheel: No Face Detected"
+msgstr "Érintsd meg a kormányt: Nem látható az arcod"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Traffic signs and upcoming limits"
+msgstr "Közúti jelzések és következő sebességhatárok"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Trip time: {minutes:.0f} min | arrival: {soc:.0f}%"
+msgstr "Menetidő: {minutes:.0f} perc | érkezés: {soc:.0f}%"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Trip-only reserves, for example 10,20"
+msgstr "Tartalékok erre az útra, például 10,20"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Trip-only reserves: intermediate, destination (%)"
+msgstr "Erre az útra: köztes, célállomási tartalék (%)"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Turn Exceeds Steering Limit"
+msgstr "A kanyar meghaladja a kormányzási korlátot"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "UI Debug Mode"
+msgstr "Felület hibakeresési módja"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "UNINSTALL"
+msgstr "ELTÁVOLÍTÁS"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "UNOFFICIAL / DIRTY"
+msgstr "NEM HIVATALOS / MÓDOSÍTOTT"
+
+#: openpilot/selfdrive/ui/layouts/home.py
+msgid "UPDATE"
+msgstr "FRISSÍTÉS"
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid ""
+"Unable to download updates\n"
+"%1"
+msgstr ""
+"Nem sikerült letölteni a frissítéseket\n"
+"%1"
+
+#: openpilot/system/ui/tici_reset.py
+msgid "Unable to mount data partition. Partition may be corrupted. Press confirm to erase and reset your device."
+msgstr "Az adatpartíció nem csatolható, valószínűleg sérült. A megerősítéssel törlöd és visszaállítod az eszközt."
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Uncertain location"
+msgstr "Bizonytalan helyzet"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Unconfirmed"
+msgstr "Nincs megerősítve"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Uninstall"
+msgstr "Eltávolítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Unknown Vehicle Variant"
+msgstr "Ismeretlen járműváltozat"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Unknown country"
+msgstr "Ismeretlen ország"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Unknown limit"
+msgstr "Ismeretlen határ"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Unknown source"
+msgstr "Ismeretlen forrás"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Unlock and enter normally. Record cluster wake."
+msgstr "Nyissa ki az autót és szálljon be a szokásos módon. Rögzítse a műszerfal ébredését."
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Unpin {station}"
+msgstr "{station} rögzítésének feloldása"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning.py
+msgid "Unresolved evidence"
+msgstr "Tisztázatlan bizonyíték"
+
+#: openpilot/system/ui/tici_updater.py
+msgid "Update Required"
+msgstr "Frissítés szükséges"
+
+#: openpilot/system/ui/tici_updater.py
+msgid "Update failed"
+msgstr "Sikertelen frissítés"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Updates are only downloaded while the car is off."
+msgstr "Frissítések csak kikapcsolt járműnél töltődnek le."
+
+#: openpilot/selfdrive/ui/widgets/prime.py
+msgid "Upgrade Now"
+msgstr "Előfizetés"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Upload data from the cabin camera and help improve the driver monitoring algorithm."
+msgstr "A belső kamera felvételeinek feltöltésével segítheted a vezetőfigyelő algoritmus fejlesztését."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Use Metric System"
+msgstr "Metrikus mértékegységek"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Use caution when installing third-party software."
+msgstr "Körültekintően telepíts külső féltől származó szoftvert."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Use stationary consented observation or review an existing recording. Do not create distraction or drowsiness while driving."
+msgstr "Álló helyzetben, beleegyezéssel figyeljen meg, vagy értékeljen korábbi felvételt. Vezetés közben ne idézzen elő figyelemelterelést vagy álmosságot."
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Use suggestion for planning only"
+msgstr "Javaslat használata csak a tervezéshez"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature."
+msgstr "Az openpilot adaptív tempomatot és sávtartó vezetéstámogatást biztosít. Használatához folyamatosan figyelned kell."
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "Use {soc:.0f}% intermediate reserve for this trip"
+msgstr "{soc:.0f}% köztes tartalék használata erre az útra"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "VEHICLE"
+msgstr "JÁRMŰ"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "VIEW"
+msgstr "MEGTEKINTÉS"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py
+msgid "Validation"
+msgstr "Ellenőrzés"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Variable"
+msgstr "Változó"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Vehicle Sensors Calibrating"
+msgstr "Járműérzékelők kalibrálása"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Vehicle Sensors Invalid"
+msgstr "Érvénytelen járműérzékelők"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "Vehicle Steering Time Limit"
+msgstr "A jármű kormányzási időkorlátja"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Vehicle ahead"
+msgstr "Elöl haladó jármű"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "Vehicle control disabled. Open PRE-AP Validation before connecting CAN."
+msgstr "A járművezérlés ki van kapcsolva. A CAN csatlakoztatása előtt nyissa meg a PRE-AP ellenőrzést."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Vehicle identification number"
+msgstr "Alvázszám"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Vehicle state"
+msgstr "Járműállapot"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Vehicle stationary"
+msgstr "Álló jármű"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+msgid "Verified passive Chassis CAN logger"
+msgstr "Ellenőrzött passzív Chassis CAN-adatrögzítő"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "WARNING: Custom Software"
+msgstr "FIGYELEM: Egyéni szoftver"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "WARNING: Low Voltage"
+msgstr "FIGYELEM: Alacsony feszültség"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "WARNING: This branch is not tested"
+msgstr "FIGYELEM: Ez az ág nincs tesztelve"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "Waiting for internet"
+msgstr "Várakozás internetre"
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py
+msgid "Waiting to start"
+msgstr "Várakozás az indulásra"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Wake after sleep"
+msgstr "Ébredés alvó állapot után"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Warm boot"
+msgstr "Melegindítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "Warning: This grants SSH access to all public keys in your GitHub settings. Never enter a GitHub username other than your own. A comma employee will NEVER ask you to add their GitHub username."
+msgstr "Figyelem: Ez SSH-hozzáférést ad a GitHub-beállításaidban szereplő összes nyilvános kulcsnak. Kizárólag a saját GitHub-felhasználónevedet add meg. A comma munkatársa SOHA nem kéri, hogy az ő GitHub-felhasználónevét add hozzá."
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py
+msgid "Welcome to openpilot"
+msgstr "Üdvözöl az openpilot"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Welcome to openpilot alpha"
+msgstr "Üdvözöl az openpilot alfa"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "What is openpilot?"
+msgstr "Mi az openpilot?"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "When enabled, pressing the accelerator pedal will disengage openpilot."
+msgstr "Bekapcsolva a gázpedál lenyomása kikapcsolja az openpilot vezetéstámogatását."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "When you are ready to engage openpilot at a comfortable speed, engage the cruise control system and press “SET” to begin. A green border will appear around the screen whenever openpilot is engaged."
+msgstr "Ha megfelelő sebességnél készen állsz a bekapcsolásra, kapcsold be a tempomatot, és nyomd meg a SET gombot. Bekapcsolt openpilot vezetéstámogatásnál zöld keret jelenik meg a kijelző körül."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "When you encounter a potentially unsafe situation or need to exit a highway, disengage openpilot by pressing the brake pedal."
+msgstr "Veszélyesnek tűnő helyzetben vagy az autópályáról lehajtás előtt a fékpedál lenyomásával kapcsold ki az openpilot vezetéstámogatását."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "While openpilot is engaged, you may keep your hands on the wheel to override steering controls. Both steering and distance to the lead car will be managed by openpilot until the brake pedal is pressed to disengage."
+msgstr "Bekapcsolt openpilot mellett a kormányt kézzel felülbírálhatod. A kormányzást és a követési távolságot az openpilot kezeli, amíg a fékpedál lenyomásával ki nem kapcsolod."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "While parked with vehicle CAN disconnected, record representative frames and assess visible regions."
+msgstr "Parkoló helyzetben, leválasztott jármű-CAN mellett rögzítsen jellemző képeket, és értékelje a látható területeket."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "While parked, operate the named physical lighting control. Record each onset and release independently."
+msgstr "Parkoló helyzetben működtesse a megnevezett világításkapcsolót. Függetlenül jelölje minden működtetés kezdetét és végét."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "While safely parked, passively record displayed SOC and available energy data. For charging, record before connection through disconnection. No commands."
+msgstr "Biztonságosan parkolva rögzítse a kijelzett töltöttséget és energiaadatokat. Töltésnél a csatlakoztatás előttől a lecsatlakoztatásig. Ne küldjön parancsot."
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Wi-Fi Network Metered"
+msgstr "Korlátos Wi-Fi"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "Wide road camera"
+msgstr "Széles látószögű útkamera"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "With openpilot engaged, turn on your signal and check your surroundings. When it’s safe, gently nudge the steering wheel towards your desired lane. The sequence of turn signal and wheel nudge will prompt openpilot to change lanes."
+msgstr "Bekapcsolt openpilot mellett jelezz az irányjelzővel, és ellenőrizd a környezetedet. Ha biztonságos, finoman mozdítsd a kormányt a kívánt sáv felé. Az irányjelzés és a kormánymozdulat indítja el az openpilot sávváltását."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "With room to slow safely, release the accelerator without touching the brake."
+msgstr "Biztonságos lassításhoz elegendő hely esetén engedje fel a gázpedált a fék érintése nélkül."
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_text.py
+msgid "With the vehicle stopped and physical brake held, confirm Park on the cluster."
+msgstr "Álló járműnél, folyamatosan nyomott fékpedállal ellenőrizze a műszerfal P jelzését."
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Wrong direction"
+msgstr "Eltérő irány"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "Wrong password"
+msgstr "Hibás jelszó"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Wrong road"
+msgstr "Eltérő út"
+
+#: openpilot/selfdrive/ui/layouts/settings/commissioning_labels.py
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "Yes"
+msgstr "Igen"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "You can adjust your maximum speed by pressing + or - on your vehicle’s cruise control inputs. The max speed is shown in the upper left corner of the display."
+msgstr "A maximális sebességet a tempomat + és - kezelőivel állíthatod. A beállított maximum a kijelző bal felső sarkában látható."
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py
+msgid "You must accept the Terms and Conditions in order to use openpilot."
+msgstr "Az openpilot használatához el kell fogadnod a felhasználási feltételeket."
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py
+msgid "You must accept the Terms and Conditions to use openpilot. Read the latest terms at https://comma.ai/terms before continuing."
+msgstr "Az openpilot használatához el kell fogadnod a felhasználási feltételeket. A folytatás előtt olvasd el az aktuális feltételeket: https://comma.ai/terms."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "You must pay attention at all times. If you are distracted, openpilot will show alerts of increasing severity, and you will be locked out from engaging. If the problem persists, the system will begin decelerating the vehicle."
+msgstr "Folyamatosan figyelned kell. Figyelmetlenség esetén az openpilot egyre erősebb figyelmeztetéseket ad, és letiltja az újbóli bekapcsolást. Ha a probléma fennmarad, a rendszer lassítani kezdi a járművet."
+
+#: openpilot/selfdrive/ui/onroad/cabin_camera_dialog.py
+msgid "camera starting"
+msgstr "kamera indítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "checking..."
+msgstr "ellenőrzés..."
+
+#: openpilot/selfdrive/ui/widgets/prime.py
+msgid "comma prime"
+msgstr "comma prime"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "default"
+msgstr "alapértelmezett"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "down"
+msgstr "lefelé"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "downloading..."
+msgstr "letöltés..."
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "failed to check for update"
+msgstr "nem sikerült ellenőrizni a frissítést"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "finalizing update..."
+msgstr "frissítés véglegesítése..."
+
+#: openpilot/system/ui/widgets/network.py
+msgid "for \"{}\""
+msgstr "„{}” hálózathoz"
+
+#: openpilot/system/ui/tici_setup.py
+msgid "for Custom Software"
+msgstr "az egyéni szoftverhez"
+
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py
+msgid "km/h"
+msgstr "km/h"
+
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Average speed zone ends in {distance} m"
+msgstr "Az átlagsebesség-mérési szakasz vége: {distance} m"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Red-light camera ahead: {distance} m"
+msgstr "Piroslámpa-figyelő kamera előttünk: {distance} m"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Enforcement zone ahead: {distance} m"
+msgstr "Ellenőrzési szakasz előttünk: {distance} m"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "downloads automatically on Wi-Fi while parked"
+msgstr "álló helyzetben, Wi-Fi-n automatikusan letöltődik"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Map catalog not configured"
+msgstr "A térképkatalógus nincs beállítva"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "The Europe map package server has not been configured."
+msgstr "Az európai térképcsomag-kiszolgáló még nincs beállítva."
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py
+msgid "lateral"
+msgstr "oldalirányú"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "leave blank for automatic configuration"
+msgstr "Az automatikus beállításhoz hagyd üresen"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "left"
+msgstr "balra"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "locationd Permanent Error"
+msgstr "Tartós locationd-hiba"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "locationd Temporary Error"
+msgstr "Átmeneti locationd-hiba"
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py
+msgid "longitudinal"
+msgstr "hosszirányú"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "metered"
+msgstr "korlátos"
+
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py
+msgid "mph"
+msgstr "mph"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "never"
+msgstr "soha"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "now"
+msgstr "most"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "opendbc: {dbc} / Panda: {panda}"
+msgstr "opendbc: {dbc} / Panda: {panda}"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "openpilot Canceled"
+msgstr "Az openpilot kikapcsolt"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py
+msgid "openpilot Longitudinal Control (Alpha)"
+msgstr "openpilot hosszirányú vezérlés (alfa)"
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py
+msgid "openpilot Unavailable"
+msgstr "Az openpilot nem érhető el"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "openpilot cannot:"
+msgstr "Az openpilot nem képes"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "openpilot defaults to driving in chill mode. Experimental mode enables alpha-level features that aren't ready for chill mode. Experimental features are listed below:<br><h4>End-to-End Longitudinal Control</h4><br>Let the driving model control the gas and brakes. openpilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.<br><h4>New Driving Visualization</h4><br>The driving visualization will transition to the road-facing wide-angle camera at low speeds to better show some turns. The Experimental mode logo will also be shown in the top right corner."
+msgstr "Az openpilot alapértelmezés szerint nyugodt módban működik. A kísérleti mód olyan alfa állapotú funkciókat engedélyez, amelyek még nem alkalmasak a nyugodt módhoz. A kísérleti funkciók:<br><h4>Teljesen modellalapú hosszirányú vezérlés</h4><br>A vezetési modell kezeli a gázt és a féket. Az openpilot a modell szerint emberhez hasonlóan vezet, beleértve a piros lámpánál és a stoptáblánál történő megállást. Mivel a sebességről a modell dönt, a beállított sebesség csak felső korlát. Ez alfa állapotú funkció; hibákra kell számítani.<br><h4>Új vezetési megjelenítés</h4><br>Kis sebességnél az útkép a széles látószögű kamerára vált, hogy egyes kanyarok jobban látszódjanak. A kísérleti mód jelzése a jobb felső sarokban is megjelenik."
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid "openpilot detected a change in the device's mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield."
+msgstr "Az openpilot változást észlelt az eszköz rögzítésében. Ellenőrizd, hogy az eszköz teljesen a tartóban ül-e, és a tartó szilárdan rögzül-e a szélvédőhöz."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "openpilot is an advanced driver assistance program. A driver assistance system is not a self-driving car. This means openpilot is designed to work with you, not without you. Your attention is required at all times to drive with openpilot."
+msgstr "Az openpilot fejlett vezetéstámogató program. A vezetéstámogató rendszer nem önvezető autó. Az openpilot veled együtt működik, nem helyetted. Vezetés közben folyamatosan figyelned kell."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "openpilot is continuously calibrating, resetting is rarely required. Resetting calibration will restart openpilot if the car is powered on."
+msgstr "Az openpilot folyamatosan kalibrál, ezért a törlés ritkán szükséges. Ha a jármű be van kapcsolva, a kalibrálás törlése újraindítja az openpilot rendszert."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "openpilot is controlled using your car’s cruise control inputs, which are usually located either on the steering wheel or on a control lever near the steering column."
+msgstr "Az openpilot az autó tempomatkezelőivel irányítható. Ezek általában a kormányon vagy a kormányoszlop melletti karon találhatók."
+
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py
+msgid ""
+"openpilot learns to drive by watching humans, like you, drive.\n"
+"\n"
+"Firehose Mode allows you to maximize your training data uploads to improve openpilot's driving models. More data means bigger models, which means better Experimental Mode."
+msgstr ""
+"Az openpilot az emberi vezetést megfigyelve tanul vezetni.\n"
+"\n"
+"A Firehose móddal több tanítóadatot tölthetsz fel a vezetési modellek fejlesztéséhez. Több adatból nagyobb modellek készülhetnek, így javulhat a kísérleti mód."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py
+msgid "openpilot longitudinal control may come in a future update."
+msgstr "Az openpilot hosszirányú vezérlése egy későbbi frissítéssel válhat elérhetővé."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "openpilot monitors your awareness through the device’s driver-facing camera. If openpilot senses that your eyes aren’t on the road, the system will go through a series of alerts and actions."
+msgstr "Az openpilot a vezető felé néző kamerával figyeli az éberségedet. Ha azt érzékeli, hogy nem az utat nézed, figyelmeztetések és beavatkozások következnek."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "openpilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
+msgstr "Az openpilot eszközét legfeljebb 4°-kal balra vagy jobbra, illetve 5°-kal felfelé vagy 9°-kal lefelé döntve szabad felszerelni."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid "openpilot uses the road-facing camera to plan the best path to drive. Alongside this path, lane lines are displayed in white and road edges are displayed in red."
+msgstr "Az openpilot az előre néző kamerával tervezi meg a haladási nyomvonalat. Mellette a sávvonalak fehéren, az útszélek pirosan jelennek meg."
+
+#: openpilot/selfdrive/selfdrived/alerts_offroad.json
+msgid "openpilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai."
+msgstr "Az openpilot nem tudta azonosítani az autót. A jármű nem támogatott, vagy a vezérlőegységei ismeretlenek. Küldj pull requestet a firmware-verziók megfelelő járműhöz rendeléséhez. Segítség: discord.comma.ai."
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "openpilot will disengage"
+msgstr "Az openpilot ki fog kapcsolni"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "paramsd Permanent Error"
+msgstr "Tartós paramsd-hiba"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "paramsd Temporary Error"
+msgstr "Átmeneti paramsd-hiba"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "right"
+msgstr "jobbra"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "take control"
+msgstr "vedd át a vezetést"
+
+#: openpilot/selfdrive/selfdrived/events.py
+msgid "turn exceeds limit"
+msgstr "a kanyar meghaladja a korlátot"
+
+#: openpilot/system/ui/widgets/network.py
+msgid "unmetered"
+msgstr "korlátlan"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py
+msgid "up"
+msgstr "felfelé"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "up to date, last checked never"
+msgstr "naprakész, még nem volt ellenőrzés"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "up to date, last checked {}"
+msgstr "naprakész, utolsó ellenőrzés: {}"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "update available"
+msgstr "frissítés érhető el"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "{0} hour."
+msgstr "{0} óra."
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "{0} hours."
+msgstr "{0} óra."
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "{0} minute Left"
+msgstr "{0} perc van hátra"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "{0} minutes Left"
+msgstr "{0} perc van hátra"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "{0}% frames dropped"
+msgstr "{0}% képkockakiesés"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "{0}% full"
+msgstr "{0}% foglalt"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "{0}% used"
+msgstr "{0}% használatban"
+
+#: openpilot/selfdrive/ui/onroad/alert_translation.py
+msgid "{0}: {1}%"
+msgstr "{0}: {1}%"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "{country}: camera warnings may be restricted."
+msgstr "{country}: a kamerajelzések korlátozottak lehetnek."
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "{speed:.0f} km/h: {minutes:.0f} min / {stops} stops / arrival {soc:.0f}%"
+msgstr "{speed:.0f} km/h: {minutes:.0f} perc / {stops} megállás / érkezés {soc:.0f}%"
+
+#: openpilot/selfdrive/ui/layouts/settings/ev_trip.py
+msgid "{station}: {arrival:.0f}% → {departure:.0f}% / {minutes:.0f} min"
+msgstr "{station}: {arrival:.0f}% → {departure:.0f}% / {minutes:.0f} perc"
+
+#: openpilot/selfdrive/ui/layouts/home.py
+msgid "{} ALERT"
+msgid_plural "{} ALERTS"
+msgstr[0] "{} RIASZTÁS"
+msgstr[1] "{} RIASZTÁS"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "{} day ago"
+msgid_plural "{} days ago"
+msgstr[0] "{} napja"
+msgstr[1] "{} napja"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "{} hour ago"
+msgid_plural "{} hours ago"
+msgstr[0] "{} órája"
+msgstr[1] "{} órája"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py
+msgid "{} minute ago"
+msgid_plural "{} minutes ago"
+msgstr[0] "{} perce"
+msgstr[1] "{} perce"
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid ""
+"× Stay engaged while the driver is distracted.\n"
+"× See other cars during a lane change.\n"
+"× Stop for red lights, stop signs or pedestrians.\n"
+"× React to unsafe situations like close vehicle cut-ins or road hazards."
+msgstr ""
+"× Figyelmetlen vezető mellett bekapcsolva maradni.\n"
+"× Sávváltás közben más autókat látni.\n"
+"× Piros lámpánál, stoptáblánál vagy gyalogosnál megállni.\n"
+"× Veszélyekre, például közeli bevágásra vagy úthibára reagálni."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid ""
+"✓ Determine a path to drive.\n"
+"✓ Maintain a maximum speed.\n"
+"✓ Maintain a safe distance from a lead car.\n"
+"✓ Change lanes with driver assistance."
+msgstr ""
+"✓ Haladási nyomvonalat tervezni.\n"
+"✓ Maximális sebességet tartani.\n"
+"✓ Biztonságos követési távolságot tartani.\n"
+"✓ A vezető közreműködésével sávot váltani."
+
+#: openpilot/selfdrive/ui/layouts/training_text.py
+msgid ""
+"✓ I will keep my eyes on the road.\n"
+"✓ I will be ready to take over at any time.\n"
+"✓ I will be ready to take over at any time!"
+msgstr ""
+"✓ Folyamatosan az utat figyelem.\n"
+"✓ Bármikor kész leszek átvenni a vezetést.\n"
+"✓ Bármikor kész leszek átvenni a vezetést!"
+
+#: openpilot/selfdrive/ui/widgets/prime.py
+msgid "✓ SUBSCRIBED"
+msgstr "✓ ELŐFIZETVE"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Longitudinal Control"
+msgstr "Hosszirányú vezérlés"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Pedal Interceptor"
+msgstr "Gázpedál-interceptor"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Enable Comma Pedal hardware for direct throttle control. Requires reboot."
+msgstr "A Comma Pedal közvetlen gázvezérlésének engedélyezése. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Adaptive Accel Limits"
+msgstr "Adaptív gyorsítási korlátok"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Reduces acceleration authority when close to a lead car to prevent overshoot. Full accel on open road or when closing a large gap."
+msgstr "Az előtted haladóhoz közel csökkenti a gyorsítást a túlfutás megelőzésére. Szabad úton vagy nagy követési távolság ledolgozásakor teljes gyorsítást enged."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Follow Distance"
+msgstr "Követési távolság"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Follow distance (1=closest, 7=farthest). Overridden by cruise stalk if present."
+msgstr "Követési távolság (1=legközelebbi, 7=legtávolabbi). A tempomatkarral felülbírálható, ha elérhető."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Pedal Hardware"
+msgstr "Pedálhardver"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Pedal CAN Bus"
+msgstr "Pedál CAN-busz"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Select which CAN bus the Comma Pedal is connected to. Requires reboot."
+msgstr "Válaszd ki, melyik CAN-buszra csatlakozik a Comma Pedal. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Bus 0"
+msgstr "0. busz"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Bus 2"
+msgstr "2. busz"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Calibrated"
+msgstr "Kalibrálva"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Not Calibrated"
+msgstr "Nincs kalibrálva"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Shows whether the pedal interceptor has been calibrated."
+msgstr "Megmutatja, hogy megtörtént-e a pedálinterceptor kalibrálása."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Calibrate Pedal"
+msgstr "Pedál kalibrálása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Start"
+msgstr "Indítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Run the pedal calibration routine. Vehicle must be stationary with ignition on."
+msgstr "Pedálkalibrálás indítása. A jármű álljon, a gyújtás legyen bekapcsolva."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar"
+msgstr "Radar"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Enabled"
+msgstr "Radar engedélyezve"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Enable the stock Bosch radar for lead car detection. Requires reboot."
+msgstr "A gyári Bosch radar használata az elöl haladó jármű felismeréséhez. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Behind Nosecone"
+msgstr "Radar az orrburkolat mögött"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Apply signal attenuation adjustment for radar mounted behind the nosecone. Requires reboot."
+msgstr "Jelcsillapítási korrekció alkalmazása az orrburkolat mögé szerelt radarnál. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Lateral Offset"
+msgstr "Radar oldalirányú eltolása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Lateral offset in meters added to radar yRel. Negative shifts leads toward the left of current radar reading; positive shifts right. Example: -0.27 for the 3D-printed factory-location mount."
+msgstr "A radar yRel értékéhez hozzáadott oldalirányú eltolás méterben. A negatív érték balra, a pozitív jobbra tolja a célpontokat. Példa: -0,27 m a gyári helyre illeszkedő, 3D-nyomtatott tartónál."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Calibrate Radar"
+msgstr "Radar kalibrálása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Run the radar calibration routine."
+msgstr "Radar-kalibrálási eljárás indítása."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Test Radar"
+msgstr "Radar tesztelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Test"
+msgstr "Teszt"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Test radar connectivity and verify signals."
+msgstr "A radar kapcsolatának és jeleinek ellenőrzése."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "iBooster / Braking"
+msgstr "iBooster / fékezés"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "iBooster Enabled"
+msgstr "iBooster engedélyezve"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Enable the iBooster brake-by-wire system for electronic braking. (Not yet implemented)"
+msgstr "Az iBooster elektronikus fékrendszer engedélyezése. (Még nincs megvalósítva.)"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Brake Factor"
+msgstr "Fékezési tényező"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Multiplier for brake force. Higher values brake more aggressively. (Not yet implemented)"
+msgstr "A fékerő szorzója. A nagyobb érték erőteljesebb fékezést jelent. (Még nincs megvalósítva.)"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Force Pre-AP Mode"
+msgstr "Pre-AP mód kényszerítése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Force the system to treat this vehicle as a Pre-Autopilot Tesla."
+msgstr "A rendszer a járművet Pre-Autopilot Tesla-modellként kezelje."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Actions"
+msgstr "Műveletek"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Backup EPAS"
+msgstr "EPAS biztonsági mentése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Extract"
+msgstr "Kinyerés"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Extract and save stock EPAS firmware image without flashing."
+msgstr "A gyári EPAS-firmware kinyerése és mentése felülírás nélkül."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Flash EPAS"
+msgstr "EPAS firmware írása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Flash"
+msgstr "Írás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Flash the EPAS (Electric Power Assisted Steering) firmware."
+msgstr "Az elektromos szervokormány (EPAS) firmware-ének felírása."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Restore EPAS"
+msgstr "EPAS visszaállítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Restore"
+msgstr "Visszaállítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Restore stock EPAS firmware image."
+msgstr "A gyári EPAS-firmware visszaállítása."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Emergency Disable"
+msgstr "Vészhelyzeti kikapcsolás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Immediately disable pedal interceptor and clear calibration. Restart required."
+msgstr "A pedálinterceptor azonnali kikapcsolása és a kalibrálás törlése. Újraindítás szükséges."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Reset to Defaults"
+msgstr "Alapértékek visszaállítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Reset all NAP settings to factory defaults. This cannot be undone."
+msgstr "Minden NAP-beállítás visszaállítása az alapértékekre. Ez nem vonható vissza."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Acknowledgments"
+msgstr "Köszönetnyilvánítás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Pedal Calibration"
+msgstr "Pedálkalibrálás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Calibration"
+msgstr "Radar kalibrálása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Test"
+msgstr "Radar tesztelése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Flash EPAS Firmware"
+msgstr "EPAS firmware írása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Backup EPAS Firmware"
+msgstr "EPAS firmware mentése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Restore EPAS Firmware"
+msgstr "EPAS firmware visszaállítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Radar Lateral Offset (m)"
+msgstr "Radar oldalirányú eltolása (m)"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "<h1>Reboot Required</h1><br><p>This change requires a reboot to take effect.</p>"
+msgstr "<h1>Újraindítás szükséges</h1><br><p>A módosítás csak újraindítás után lép életbe.</p>"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Ignore"
+msgstr "Mellőzés"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "<h1>Emergency Disable</h1><br><p>This will disable the pedal interceptor and clear calibration. You will need to restart the device for changes to take effect.</p>"
+msgstr "<h1>Vészhelyzeti kikapcsolás</h1><br><p>Ez kikapcsolja a pedálinterceptort és törli a kalibrálást. A módosítás életbe lépéséhez újra kell indítani az eszközt.</p>"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "<h1>Reset to Defaults</h1><br><p>This will reset all NAP settings to their factory default values. This action cannot be undone.</p>"
+msgstr "<h1>Alapértékek visszaállítása</h1><br><p>Minden NAP-beállítás visszaáll a gyári alapértékre. Ez a művelet nem vonható vissza.</p>"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Reset All"
+msgstr "Összes visszaállítása"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Maps"
+msgstr "Térképek"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Manage"
+msgstr "Kezelés"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Europe map packages"
+msgstr "Európai térképcsomagok"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "European country maps"
+msgstr "Európai országok térképei"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Map list syncing"
+msgstr "Országlista betöltése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Connect to Wi-Fi while parked to load the country list from Geofabrik."
+msgstr "Parkolás közben csatlakozz Wi-Fi-re a Geofabrik országlistájának betöltéséhez."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "OSM map source"
+msgstr "OSM térképadat-forrás"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "downloads and builds automatically on Wi-Fi while parked"
+msgstr "parkolás közben, Wi-Fi-n letölti és helyben feldolgozza"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "OpenStreetMap contributors"
+msgstr "OpenStreetMap-közreműködők"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Map data under ODbL-1.0"
+msgstr "A térképadat ODbL-1.0 licencű"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Select packages to download"
+msgstr "Válaszd ki a letöltendő csomagokat"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Downloads"
+msgstr "Letöltések"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Map catalog unavailable"
+msgstr "A térképkatalógus nem érhető el"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Connect to Wi-Fi to sync the Europe map catalog."
+msgstr "Csatlakozz Wi-Fi-re az európai térképkatalógus frissítéséhez."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Waiting for Wi-Fi"
+msgstr "Várakozás Wi-Fi-re"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Return"
+msgstr "Vissza"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Select European map packages for automatic Wi-Fi download while parked."
+msgstr "Válassz európai térképcsomagokat, amelyek álló helyzetben, Wi-Fi-n automatikusan letöltődnek."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Display-only map and sign estimate; does not change vehicle speed."
+msgstr "A térképi és táblafelismerési becslés csak kijelzésre szolgál, nem módosítja a jármű sebességét."
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Show speed limit"
+msgstr "Sebességhatár megjelenítése"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Speed limit unavailable"
+msgstr "A sebességhatár nem érhető el"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Source: {source}"
+msgstr "Forrás: {source}"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "km/h"
+msgstr "km/h"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Speed camera warnings"
+msgstr "Sebességmérő kamerák figyelmeztetése"
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Display-only warnings require a configured enforcement-point catalog and a confident map match. They never change vehicle speed."
+msgstr "A figyelmeztetés csak kijelzésre szolgál; ehhez beállított kamerakatalógus és megbízható térképi illesztés kell. A jármű sebességét nem módosítja."
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Speed camera ahead: {distance} m"
+msgstr "Sebességmérő kamera előttünk: {distance} m"
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Average speed zone: {distance} m"
+msgstr "Átlagsebesség-mérési szakasz: {distance} m"
+
+msgid "Arm Stock Cruise to Enable Speed Control"
+msgstr "A sebességszabályozáshoz kapcsold készenlétbe a gyári tempomatot"
+
+msgid "Check Calibration"
+msgstr "Ellenőrizd a kalibrációt"
+
+msgid "Check Hardware"
+msgstr "Ellenőrizd a hardvert"
+
+msgid "Device Fell Off Mount"
+msgstr "Az eszköz leesett a tartóról"
+
+msgid "Distraction Level Too High"
+msgstr "Túl nagy a figyelemelterelés"
+
+msgid "High CPU Usage"
+msgstr "Magas processzorterhelés"
+
+msgid "Likely Hardware Issue"
+msgstr "Valószínű hardverhiba"
+
+msgid "Low Battery"
+msgstr "Alacsony akkumulátortöltöttség"
+
+msgid "Max Regen Being Used"
+msgstr "Maximális visszatáplálás"
+
+msgid "Pedal Cruise Disengaged"
+msgstr "Pedálos tempomat kikapcsolva"
+
+msgid "Pedal Cruise Engaged"
+msgstr "Pedálos tempomat bekapcsolva"
+
+msgid "Pedal Not Calibrated"
+msgstr "A pedál nincs kalibrálva"
+
+msgid "Pedal Not Calibrated: Check Calibration"
+msgstr "A pedál nincs kalibrálva: ellenőrizd a kalibrációt"
+
+msgid "Possible Hardware Issue"
+msgstr "Lehetséges hardverhiba"
+
+msgid "Recording Audio Feedback"
+msgstr "Hangos visszajelzés rögzítése"
+
+msgid "Tesla Cruise Disengaged"
+msgstr "Tesla tempomat kikapcsolva"
+
+msgid "Tesla Cruise Engaged"
+msgstr "Tesla tempomat bekapcsolva"
+
+msgid "USB Error: Reboot Your Device"
+msgstr "USB-hiba: indítsd újra az eszközt"
+
+msgid "Speed limit display"
+msgstr "Sebességhatár kijelzése"
+
+msgid "Show map and verified camera speed limits. Display only; cruise speed is unchanged."
+msgstr "Térképi és igazolt kamerás sebességhatárok kijelzése. A tempomat beállított sebességét nem módosítja."
+
+msgid "Drive above {value} to engage"
+msgstr "A bekapcsoláshoz haladj {value} felett"
+
+msgid "Steer Assist Unavailable Below {value}"
+msgstr "A kormányrásegítés {value} alatt nem érhető el"
+
+msgid "Drive Above {value}"
+msgstr "Haladj {value} felett"
+
+msgid "{value}% full"
+msgstr "{value}% megtelt"
+
+msgid "{value}% used"
+msgstr "{value}% használatban"
+
+msgid "{value}% frames dropped"
+msgstr "{value}% képkockakiesés"
+
+msgid "{value} seconds remaining. Press again to save early."
+msgstr "{value} másodperc van hátra. A korábbi mentéshez nyomd meg újra."
+
+msgid "{state}: {value}%"
+msgstr "{state}: {value}%"
+
+msgid "Calibration"
+msgstr "Kalibrálás"
+
+msgid "Recalibration"
+msgstr "Újrakalibrálás"
+
+msgid "Driving Personality: {value}"
+msgstr "Vezetési stílus: {value}"

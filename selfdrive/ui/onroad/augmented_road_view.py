@@ -87,6 +87,7 @@ class AugmentedRoadView(CameraView):
     self.model_renderer.render(self._content_rect)
     self._hud_renderer.render(self._content_rect)
     self.alert_renderer.render(self._content_rect)
+    self._hud_renderer.render_speed_camera_warning(self._content_rect, self.alert_renderer.get_alert(ui_state.sm) is not None)
     self.driver_state_renderer.render(self._content_rect)
 
     # Custom UI extension point - add custom overlays here
