@@ -41,6 +41,13 @@ BUTTON_WIDTH = 350
 BUTTON_HEIGHT = 110
 BUTTON_SPACING = 30
 
+# Only these readout tools have a cooperative stop path. Firmware writes
+# and all other running scripts remain non-interruptible.
+INTERRUPTIBLE_MODULES = frozenset({
+  "scripts.nap.calibrate_radar",
+  "scripts.nap.test_radar",
+})
+
 
 class ScriptState:
   READY = 0
@@ -166,7 +173,14 @@ class ScriptRunnerApp:
       self._output_queue.put(f"\n[Error reading output: {e}]")
       self._state = ScriptState.ERROR
 
+  def _can_exit(self):
+    active = self._state == ScriptState.RUNNING or (self._process is not None and self._process.poll() is None)
+    return not active or self._script_module in INTERRUPTIBLE_MODULES
+
   def _on_exit_clicked(self):
+    # Enforce the same policy even if a callback is invoked without the button.
+    if not self._can_exit():
+      return
     if self._process and self._process.poll() is None:
       # Cooperative cancel: SIGINT raises KeyboardInterrupt in the
       # child, so its finally blocks run (Panda safety reset, pedal
@@ -347,6 +361,7 @@ class ScriptRunnerApp:
       )
 
   def _render_buttons(self, rect):
+    self._exit_button.set_enabled(self._can_exit())
     button_y = rect.y + rect.height - MARGIN - BUTTON_HEIGHT
 
     if self._state == ScriptState.READY:
@@ -371,10 +386,6 @@ class ScriptRunnerApp:
         BUTTON_WIDTH,
         BUTTON_HEIGHT
       )
-      # Exit is disabled while RUNNING. The flash path can't be
-      # safely interrupted mid-write; the calibration/test paths
-      # also disable cancel for consistency with the original design.
-      self._exit_button.set_enabled(self._state != ScriptState.RUNNING)
       self._exit_button.render(exit_rect)
 
 
