@@ -62,6 +62,7 @@ class HudRenderer(Widget):
     super().__init__()
     """Initialize the HUD renderer."""
     self._road_context = RoadContextWidget()
+    self.night_mode = False
     self.is_cruise_set: bool = False
     self.is_cruise_available: bool = True
     self.set_speed: float = SET_SPEED_NA
@@ -104,6 +105,11 @@ class HudRenderer(Widget):
 
   def _render(self, rect: rl.Rectangle) -> None:
     """Render HUD elements to the screen."""
+    if self.night_mode:
+      self._draw_set_speed(rect)
+      self._draw_speed_limit(rect)
+      return
+
     # Draw the header background
     rl.draw_rectangle_gradient_v(
       int(rect.x),

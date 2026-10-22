@@ -10,6 +10,7 @@ from openpilot.selfdrive.ui.onroad.driver_state import DriverStateRenderer
 from openpilot.selfdrive.ui.onroad.hud_renderer import HudRenderer
 from openpilot.selfdrive.ui.onroad.model_renderer import ModelRenderer
 from openpilot.selfdrive.ui.onroad.cameraview import CameraView
+from openpilot.selfdrive.ui.onroad.night_mode import NightModeGesture
 from openpilot.system.ui.lib.application import gui_app
 from openpilot.common.transformations.camera import DEVICE_CAMERAS, DeviceCameraConfig, view_frame_from_device_frame
 from openpilot.common.transformations.orientation import rot_from_euler
@@ -48,6 +49,8 @@ class AugmentedRoadView(CameraView):
     self._hud_renderer = HudRenderer()
     self.alert_renderer = AlertRenderer()
     self.driver_state_renderer = DriverStateRenderer()
+    self.night_gesture = NightModeGesture()
+    self._night_action_touch = False
 
     # debug
     self._pm = messaging.PubMaster(['uiDebug'])
@@ -56,6 +59,15 @@ class AugmentedRoadView(CameraView):
     # Only render when system is started to avoid invalid data access
     start_draw = time.monotonic()
     if not ui_state.started:
+      return
+
+    self._hud_renderer.night_mode = self.night_mode
+    if self.night_mode:
+      rl.draw_rectangle_rec(rect, rl.BLACK)
+      self._hud_renderer.render(rect)
+      self.alert_renderer.render(rect)
+      self._hud_renderer.render_speed_camera_warning(rect, self.alert_renderer.get_alert(ui_state.sm) is not None)
+      self.driver_state_renderer.render(rect)
       return
 
     self._switch_stream_if_needed(ui_state.sm)
@@ -104,13 +116,42 @@ class AugmentedRoadView(CameraView):
     msg.uiDebug.drawTimeMillis = (time.monotonic() - start_draw) * 1000
     self._pm.send('uiDebug', msg)
 
+  @property
+  def night_mode(self):
+    return self.night_gesture.enabled
+
   def _handle_mouse_press(self, _):
-    if not self._hud_renderer.user_interacting() and self._click_callback is not None:
-      self._click_callback()
+    # Child controls consume their own taps; all other taps are deferred briefly
+    # so a second tap can toggle night mode instead of opening the sidebar.
+    self._night_action_touch = self._hud_renderer.user_interacting()
 
   def _handle_mouse_release(self, _):
-    # We only call click callback on press if not interacting with HUD
-    pass
+    self._night_action_touch = False
+
+  def _handle_mouse_event(self, event):
+    if not ui_state.started or event.slot != 0:
+      return
+    pos = event.pos
+    if event.left_pressed:
+      self._night_action_touch = self._hud_renderer.user_interacting()
+      if not self._night_action_touch:
+        self.night_gesture.press(event.t, pos.x, pos.y)
+    elif event.left_released:
+      if not self._night_action_touch:
+        self.night_gesture.release(event.t, pos.x, pos.y)
+      self._night_action_touch = False
+
+  def _process_mouse_events(self):
+    super()._process_mouse_events()
+    # Process the whole event batch before expiring the first tap. This avoids
+    # turning a rapid double tap into a normal sidebar click.
+    if self.night_gesture.flush(time.monotonic()) and self._click_callback:
+      self._click_callback()
+
+  def hide_event(self):
+    self.night_gesture.reset()
+    self._night_action_touch = False
+    super().hide_event()
 
   def _draw_border(self, rect: rl.Rectangle):
     rl.draw_rectangle_lines_ex(rect, UI_BORDER_SIZE, rl.BLACK)

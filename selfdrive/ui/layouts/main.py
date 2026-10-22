@@ -102,6 +102,9 @@ class MainLayout(Widget):
     self._sidebar.set_visible(not self._sidebar.is_visible)
 
   def _render_main_content(self):
+    if self._current_mode == MainState.ONROAD and self._layouts[MainState.ONROAD].night_mode:
+      self._sidebar.set_visible(False)
+
     # Render sidebar
     if self._sidebar.is_visible:
       self._sidebar.render(self._sidebar_rect)
