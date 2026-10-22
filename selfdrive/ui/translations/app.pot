@@ -1033,3 +1033,103 @@ msgstr ""
 msgid "mph"
 msgstr ""
 
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Speed camera warnings"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap.py
+msgid "Display-only warnings require a configured enforcement-point catalog and a confident map match. They never change vehicle speed."
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Speed camera ahead: {distance} m"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Average speed zone: {distance} m"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Average speed zone ends in {distance} m"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Red-light camera ahead: {distance} m"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/road_context.py
+msgid "Enforcement zone ahead: {distance} m"
+msgstr ""
+
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Active — verified map ({roads} road segments)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Verified map configured; display is off ({roads} road segments)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Downloaded and verified, inactive ({roads} road segments)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "File exists; map has not been verified"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Download in progress"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Building map database"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Download or build failed: {message}"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Unknown error"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Expected map file is missing"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Selected — waiting for Wi-Fi while parked"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Invalid map package identifier"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Not downloaded"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "European country maps"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Connect to Wi-Fi while parked to load the country list from Geofabrik."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Map data under ODbL-1.0"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "OpenStreetMap contributors"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "OSM map source"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/nap_maps.py
+msgid "Map list syncing"
+msgstr ""

@@ -2,6 +2,7 @@ import pyray as rl
 from dataclasses import dataclass
 from openpilot.common.constants import CV
 from openpilot.selfdrive.ui.onroad.exp_button import ExpButton
+from openpilot.selfdrive.ui.onroad.road_context import RoadContextWidget
 from openpilot.selfdrive.ui.ui_state import ui_state, UIStatus
 from openpilot.system.ui.lib.application import gui_app, FontWeight
 from openpilot.system.ui.lib.multilang import tr
@@ -71,6 +72,8 @@ class HudRenderer(Widget):
     self._font_medium: rl.Font = gui_app.font(FontWeight.MEDIUM)
 
     self._exp_button: ExpButton = ExpButton(UI_CONFIG.button_size, UI_CONFIG.wheel_icon_size)
+    self._road_context = RoadContextWidget()
+    self.night_mode = False
 
   def _update_state(self) -> None:
     """Update HUD state based on car state and controls state."""
@@ -102,6 +105,13 @@ class HudRenderer(Widget):
 
   def _render(self, rect: rl.Rectangle) -> None:
     """Render HUD elements to the screen."""
+    if self.night_mode:
+      # Keep only the cruise MAX/set-speed indicator and speed-limit context.
+      self._draw_set_speed(rect)
+      self._road_context.render(rl.Rectangle(rect.x + 40, rect.y + 330, 430, 165))
+      self._road_context.render_speed_sign(rect.x + 280, rect.y + 50)
+      return
+
     # Draw the header background
     rl.draw_rectangle_gradient_v(
       int(rect.x),
@@ -117,12 +127,19 @@ class HudRenderer(Widget):
 
     self._draw_current_speed(rect)
 
+    # Display-only map/sign limit context; never connected to car controls.
+    self._road_context.render(rl.Rectangle(rect.x + 40, rect.y + 330, 430, 165))
+    self._road_context.render_speed_sign(rect.x + 280, rect.y + 50)
+
     button_x = rect.x + rect.width - UI_CONFIG.border_size - UI_CONFIG.button_size
     button_y = rect.y + UI_CONFIG.border_size
     self._exp_button.render(rl.Rectangle(button_x, button_y, UI_CONFIG.button_size, UI_CONFIG.button_size))
 
   def user_interacting(self) -> bool:
-    return self._exp_button.is_pressed
+    return self._exp_button.is_pressed or self._road_context.user_interacting()
+
+  def render_speed_camera_warning(self, rect, standard_alert_present: bool) -> None:
+    self._road_context.render_speed_camera_warning(rect, standard_alert_present)
 
   def _draw_set_speed(self, rect: rl.Rectangle) -> None:
     """Draw the MAX speed indicator box."""

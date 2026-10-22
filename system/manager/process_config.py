@@ -55,6 +55,13 @@ def only_onroad(started: bool, params: Params, CP: car.CarParams) -> bool:
 def only_offroad(started: bool, params: Params, CP: car.CarParams) -> bool:
   return not started
 
+def road_context_enabled(started: bool, params: Params, CP: car.CarParams) -> bool:
+  return started and (params.get_bool("RoadContextEnabled") or params.get_bool("SpeedCameraWarnings")
+                      or params.get_bool("AutoHighBeamEnabled"))
+
+def mapdownloader(started: bool, params: Params, CP: car.CarParams) -> bool:
+  return not started and bool(params.get("RoadContextMapCatalogUrl"))
+
 def or_(*fns):
   return lambda *args: operator.or_(*(fn(*args) for fn in fns))
 
@@ -91,6 +98,8 @@ procs = [
   PythonProcess("selfdrived", "selfdrive.selfdrived.selfdrived", only_onroad),
   PythonProcess("card", "selfdrive.car.card", only_onroad),
   PythonProcess("deleter", "system.loggerd.deleter", always_run),
+  # Map downloads are prebuilt SQLite packages, Wi-Fi-only, and offroad-only.
+  PythonProcess("mapdownloaderd", "selfdrive.road_context.map_downloaderd", mapdownloader),
   PythonProcess("dmonitoringd", "selfdrive.monitoring.dmonitoringd", driverview, enabled=(WEBCAM or not PC)),
   PythonProcess("qcomgpsd", "system.qcomgpsd.qcomgpsd", qcomgps, enabled=TICI),
   PythonProcess("pandad", "selfdrive.pandad.pandad", always_run),
@@ -101,6 +110,7 @@ procs = [
   PythonProcess("plannerd", "selfdrive.controls.plannerd", not_long_maneuver),
   PythonProcess("maneuversd", "tools.longitudinal_maneuvers.maneuversd", long_maneuver),
   PythonProcess("radard", "selfdrive.controls.radard", only_onroad),
+  PythonProcess("roadcontextd", "selfdrive.road_context.roadcontextd", road_context_enabled),
   PythonProcess("hardwared", "system.hardware.hardwared", always_run),
   PythonProcess("tombstoned", "system.tombstoned", always_run, enabled=not PC),
   PythonProcess("updated", "system.updated.updated", only_offroad, enabled=not PC),

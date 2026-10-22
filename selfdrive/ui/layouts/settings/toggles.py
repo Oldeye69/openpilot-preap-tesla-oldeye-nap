@@ -111,13 +111,14 @@ class TogglesLayout(Widget):
         self._params.get_bool(param),
         callback=lambda state, p=param: self._toggle_callback(state, p),
         icon=icon,
+        enabled=ui_state.can_change_settings,
       )
 
       try:
         locked = self._params.get_bool(param + "Lock")
       except UnknownKeyName:
         locked = False
-      toggle.action_item.set_enabled(not locked)
+      toggle.action_item.set_enabled(False if locked else ui_state.can_change_settings)
 
       # Make description callable for live translation
       additional_desc = ""
@@ -169,9 +170,11 @@ class TogglesLayout(Widget):
 
     if ui_state.CP is not None:
       if ui_state.has_longitudinal_control:
-        self._toggles["ExperimentalMode"].action_item.set_enabled(True)
+        self._toggles["ExperimentalMode"].action_item.set_enabled(ui_state.can_change_settings)
         self._toggles["ExperimentalMode"].set_description(e2e_description)
-        self._long_personality_setting.action_item.set_enabled(True)
+        self._long_personality_setting.action_item.set_enabled(
+          lambda: ui_state.has_longitudinal_control and ui_state.can_change_settings()
+        )
       else:
         # no long for now
         self._toggles["ExperimentalMode"].action_item.set_enabled(False)
@@ -200,10 +203,23 @@ class TogglesLayout(Widget):
     for param in self._toggle_defs:
       self._toggles[param].action_item.set_state(self._params.get_bool(param))
 
-    # these toggles need restart, block while engaged
+    # Disallow changes while moving; restart-required settings are also blocked
+    # while engaged, even when the vehicle is stationary.
     for toggle_def in self._toggle_defs:
-      if self._toggle_defs[toggle_def][3] and toggle_def not in self._locked_toggles:
-        self._toggles[toggle_def].action_item.set_enabled(not ui_state.engaged)
+      if toggle_def not in self._locked_toggles:
+        needs_restart = self._toggle_defs[toggle_def][3]
+        unsupported_experimental = (toggle_def == "ExperimentalMode" and ui_state.CP is not None
+                                    and not ui_state.has_longitudinal_control)
+        if unsupported_experimental:
+          self._toggles[toggle_def].action_item.set_enabled(False)
+        else:
+          self._toggles[toggle_def].action_item.set_enabled(
+            lambda restart=needs_restart: ui_state.can_change_settings() and (not restart or not ui_state.engaged)
+          )
+
+    self._long_personality_setting.action_item.set_enabled(
+      lambda: ui_state.has_longitudinal_control and ui_state.can_change_settings()
+    )
 
   def _render(self, rect):
     self._scroller.render(rect)
@@ -213,10 +229,13 @@ class TogglesLayout(Widget):
     self._toggles["ExperimentalMode"].set_icon(icon)
 
   def _handle_experimental_mode_toggle(self, state: bool):
+    if not ui_state.can_change_settings():
+      self._update_toggles()
+      return
     confirmed = self._params.get_bool("ExperimentalModeConfirmed")
     if state and not confirmed:
       def confirm_callback(result: DialogResult):
-        if result == DialogResult.CONFIRM:
+        if result == DialogResult.CONFIRM and ui_state.can_change_settings():
           self._params.put_bool("ExperimentalMode", True)
           self._params.put_bool("ExperimentalModeConfirmed", True)
         else:
@@ -233,6 +252,9 @@ class TogglesLayout(Widget):
       self._params.put_bool("ExperimentalMode", state)
 
   def _toggle_callback(self, state: bool, param: str):
+    if not ui_state.can_change_settings():
+      self._update_toggles()
+      return
     if param == "ExperimentalMode":
       self._handle_experimental_mode_toggle(state)
       return
@@ -242,4 +264,6 @@ class TogglesLayout(Widget):
       self._params.put_bool("OnroadCycleRequested", True)
 
   def _set_longitudinal_personality(self, button_index: int):
+    if not ui_state.can_change_settings():
+      return
     self._params.put("LongitudinalPersonality", button_index)

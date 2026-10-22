@@ -21,6 +21,19 @@ class UIStatus(Enum):
   OVERRIDE = "override"
 
 
+def vehicle_is_stationary(sm, started: bool) -> bool:
+  """Allow parked/onroad settings only with a fresh, valid zero-speed report."""
+  if not started:
+    return True
+
+  if (sm.frame <= 0 or not sm.alive["carState"] or not sm.valid["carState"] or
+      sm.frame - sm.recv_frame["carState"] > max(1, int(rl.get_fps()))):
+    return False
+
+  car_state = sm["carState"]
+  return bool(car_state.canValid and abs(car_state.vEgo) <= 0.1)
+
+
 class UIState:
   _instance: 'UIState | None' = None
 
@@ -102,6 +115,12 @@ class UIState:
 
   def is_offroad(self) -> bool:
     return not self.started
+
+  def is_vehicle_stationary(self) -> bool:
+    return vehicle_is_stationary(self.sm, self.started)
+
+  def can_change_settings(self) -> bool:
+    return self.is_offroad() or self.is_vehicle_stationary()
 
   def update(self) -> None:
     self.prime_state.start()  # start thread after manager forks ui
