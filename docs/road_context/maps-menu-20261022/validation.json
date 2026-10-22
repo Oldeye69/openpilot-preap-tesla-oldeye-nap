@@ -1,0 +1,21 @@
+{
+  "scope": "NAP Maps menu, verified country colours, offroad Wi-Fi downloader. No driving/controller/radar/Panda changes.",
+  "base_commit": "10fa623efb2a146c2a427073d5188a2369cb6c51",
+  "portable_map_tests": "28 passed",
+  "arm64_map_tests": "35 passed",
+  "tsr_ui_regressions": "77 passed",
+  "native_pbf_import": "1-road PBF -> SQLite integrity ok",
+  "isolated_worker_start": "passed with real native JSON Params",
+  "europe_sources": 48,
+  "preloaded_countries_preserved": [
+    "HU",
+    "SI",
+    "IT"
+  ],
+  "colours": {
+    "installed": "green",
+    "queued_or_installing": "yellow",
+    "error": "red"
+  },
+  "existing_nap_callbacks_and_process_conditions_unchanged": true
+}

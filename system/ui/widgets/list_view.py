@@ -275,6 +275,7 @@ class ListItem(Widget):
                action_item: ItemAction | None = None):
     super().__init__()
     self._title = title
+    self._title_color = ITEM_TEXT_COLOR
     self.set_icon(icon)
     self._description = description
     self.description_visible = description_visible
@@ -361,7 +362,7 @@ class ListItem(Widget):
       # Draw main text
       text_size = measure_text_cached(self._font, self.title, ITEM_TEXT_FONT_SIZE)
       item_y = self._rect.y + (ITEM_BASE_HEIGHT - text_size.y) // 2
-      rl.draw_text_ex(self._font, self.title, rl.Vector2(text_x, item_y), ITEM_TEXT_FONT_SIZE, 0, ITEM_TEXT_COLOR)
+      rl.draw_text_ex(self._font, self.title, rl.Vector2(text_x, item_y), ITEM_TEXT_FONT_SIZE, 0, _resolve_value(self._title_color, ITEM_TEXT_COLOR))
 
     # Draw description if visible
     if self.description_visible:
@@ -387,6 +388,9 @@ class ListItem(Widget):
   def set_icon(self, icon: str | None):
     self.icon = icon
     self._icon_texture = gui_app.texture(os.path.join("icons", self.icon), ICON_SIZE, ICON_SIZE) if self.icon else None
+
+  def set_title_color(self, color):
+    self._title_color = color
 
   def set_description(self, description: str | Callable[[], str] | None):
     self._description = description

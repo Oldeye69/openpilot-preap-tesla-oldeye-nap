@@ -8,6 +8,10 @@
 inline static std::unordered_map<std::string, ParamKeyAttributes> keys = {
     {"RoadContextEnabled", {PERSISTENT, BOOL, "0"}},
     {"RoadContextMapPath", {PERSISTENT, STRING}},
+    {"RoadContextMapCatalog", {PERSISTENT, JSON}},
+    {"RoadContextMapSelection", {PERSISTENT, JSON}},
+    {"RoadContextMapInstalled", {PERSISTENT, JSON}},
+    {"RoadContextMapDownloadStatus", {CLEAR_ON_MANAGER_START, JSON}},
     {"RoadContextEnforcementPath", {PERSISTENT, STRING}},
     {"RoadContextPolicyPath", {PERSISTENT, STRING}},
     {"RoadContextPolicyAction", {CLEAR_ON_MANAGER_START, JSON}},

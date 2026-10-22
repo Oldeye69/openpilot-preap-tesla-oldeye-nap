@@ -66,6 +66,7 @@ def road_context_display(started, params, CP):
 
 
 procs = [
+  PythonProcess("map_downloaderd", "selfdrive.road_context.map_downloaderd", only_offroad),
   PythonProcess("roadcontextd", "selfdrive.road_context.roadcontextd", road_context_display),
   DaemonProcess("manage_athenad", "system.athena.manage_athenad", "AthenadPid"),
 

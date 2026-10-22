@@ -71,6 +71,7 @@ class NAPLayout(Widget):
         """Build all list items organized into sections."""
         self._all_items = []
         self._toggle_map = {}
+        self._all_items.append(button_item(tr("Maps"), tr("Select"), callback=self._on_open_maps))
         self._add_toggle("RoadContextEnabled", tr("Speed limit display"), tr("Show map and verified camera speed limits. Display only; cruise speed is unchanged."))
         self._all_items.append(section_header_item(tr('Longitudinal Control')))
         self._add_toggle(NAPParamKeys.PEDAL_ENABLED, tr('Pedal Interceptor'), tr('Enable Comma Pedal hardware for direct throttle control. Requires reboot.'), enabled=ui_state.is_offroad, needs_reboot=True)
@@ -246,6 +247,10 @@ class NAPLayout(Widget):
             elif isinstance(default, (int, float)):
                 self._params.put(key, default)
         self._params.put_bool(NAPParamKeys.FORCE_PRE_AP, True)
+
+    def _on_open_maps(self):
+        from openpilot.selfdrive.ui.layouts.settings.nap_maps import NAPMapsLayout
+        gui_app.push_widget(NAPMapsLayout())
 
     def _render(self, rect):
         self._scroller.render(rect)
